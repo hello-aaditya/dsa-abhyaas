@@ -144,6 +144,7 @@ You are given the radius of a circular fountain, and your task is to calculate i
      \[
      \text{area} = \pi \times \text{radius}^2
      \]
+	   
    - Use the built-in constant `Math.PI` to get an accurate value of π.
 
 3. **Display the Result**
