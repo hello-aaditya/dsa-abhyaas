@@ -124,3 +124,31 @@ Scanner input = new Scanner(System.in);
 
 }
 ```
+# Question-3
+## Question: Calculate the Area of a Circle (Park Design Scenario)
+
+Imagine you are an urban planner designing a circular park. To estimate how much space the park’s central fountain will occupy, you need to calculate the **area of a circle** based on its radius.
+
+### Problem Statement
+
+You are given the radius of a circular fountain, and your task is to calculate its area using the mathematical formula for the area of a circle.
+
+### Tasks to Perform
+
+1. **Declare and Initialize the Radius**
+   - Declare a variable named `radius`.
+   - Initialize it with a hardcoded value (for example, `7.5`).
+
+2. **Calculate the Area**
+   - Use the formula:  
+     \[
+     \text{area} = \pi \times \text{radius}^2
+     \]
+   - Use the built-in constant `Math.PI` to get an accurate value of π.
+
+3. **Display the Result**
+   - Print the calculated area with a clear and meaningful message indicating that it represents the **area of the circle**.
+
+### Expected Output
+
+#### Sample Output
