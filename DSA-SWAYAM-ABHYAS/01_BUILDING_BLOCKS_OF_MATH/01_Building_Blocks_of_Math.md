@@ -168,4 +168,40 @@ a is a vowel.
 
 ### Solution
 ```java
+package a01_Building_Blocks_of_Math;
+
+import java.util.Scanner;
+
+public class VowelConsonant {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+
+		// Ask user to input a Character
+		System.out.println("ENTER A CHARACTER: ");
+		char userInput = input.next().charAt(0);
+
+		if ((userInput >= 'a' && userInput <= 'z') || (userInput >= 'A' && userInput <= 'Z')) {
+			if (isVowel(userInput) == true) {
+				System.out.println(userInput + " is a vowel.");
+			} else {
+				System.out.println(userInput + " is a consonant.");
+			}
+		} else {
+			System.out.println(userInput + " is not a valid alphabet character.");
+		}
+
+		input.close();
+	}
+
+	// Check if the Character is a vowel or a consonant
+	public static boolean isVowel(char ch) {
+		switch (ch) {
+		case 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U':
+			return true;
+		default:
+			return false;
+		}
+	}
+}
 ```
