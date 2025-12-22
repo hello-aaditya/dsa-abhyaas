@@ -88,4 +88,84 @@ public class LeapYear {
 }
 ```
 
-## 1. Leap Year Program
+## 2. Vowel or Consonant
+
+### Problem Statement
+You need to develop a simple Java application to check if a given character is a vowel or a consonant.
+
+---
+### Explanation
+Vowels in the English alphabet are:
+- Lowercase: `a`, `e`, `i`, `o`, `u`
+- Uppercase: `A`, `E`, `I`, `O`, `U`
+
+All other alphabet characters are consonants.  
+Any non-alphabet character is considered invalid.
+
+---
+### Task: Check if a Given Character is a Vowel or a Consonant
+- Use `Scanner` to take user input for the character.
+- Use conditional statements to check if the character is a vowel or a consonant.
+    
+- Print a message indicating whether the character is a vowel, a consonant, or not a valid alphabet character.
+    
+
+---
+
+### Expected Output
+
+**Input:**
+
+```
+a
+```
+
+**Output:**
+
+```
+a is a vowel.
+```
+
+**Input:**
+
+```
+B
+```
+
+**Output:**
+
+```
+B is a consonant.
+```
+
+**Input:**
+
+```
+1
+```
+
+**Output:**
+
+```
+1 is not a valid alphabet character.
+```
+
+---
+
+### Sample Input
+
+```
+a
+```
+
+### Sample Output
+
+```
+a is a vowel.
+```
+
+---
+
+### Solution
+```java
+```
