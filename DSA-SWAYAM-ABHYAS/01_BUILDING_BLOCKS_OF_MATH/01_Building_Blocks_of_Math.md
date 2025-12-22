@@ -417,3 +417,86 @@ public class TemperaturePredictor {
 
 }
 ```
+## 5. Senior Citizen Discount
+
+### Problem Statement
+
+You need to develop a simple Java application to check if a person is eligible for a senior citizen discount based on their age (assume **60 years** for eligibility).
+
+---
+
+### Task: Check Eligibility for a Senior Citizen Discount
+
+- Use `Scanner` to take user input for the person's age.
+    
+- Use an `if-else` statement to check if the age is **60 or more**.
+    
+- Print a message indicating whether the person is eligible for a senior citizen discount.
+    
+
+---
+
+### Expected Output
+
+**Input:**
+
+```
+65
+```
+
+**Output:**
+
+```
+You are eligible for a senior citizen discount.
+```
+
+**Input:**
+
+```
+45
+```
+
+**Output:**
+
+```
+You are not eligible for a senior citizen discount.
+```
+
+---
+
+### Sample Input
+
+```
+65
+```
+
+### Sample Output
+
+```
+You are eligible for a senior citizen discount.
+```
+
+---
+
+### Solution
+```java
+package a01_Building_Blocks_of_Math;
+
+import java.util.Scanner;
+public class SeniorCitizenDiscount {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+
+		// Ask user for Input
+		System.out.println("ENTER YOUR AGE: ");
+		int age = input.nextInt();
+		
+		System.out.println((age>=60) ? "You are eligible for a senior citizen discount." : "You are not eligible for a senior citizen discount.");
+		
+		
+		input.close();
+	}
+
+}
+```
