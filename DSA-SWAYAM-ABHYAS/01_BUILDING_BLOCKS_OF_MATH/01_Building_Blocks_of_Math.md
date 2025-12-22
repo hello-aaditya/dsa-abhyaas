@@ -500,3 +500,71 @@ public class SeniorCitizenDiscount {
 
 }
 ```
+## 6. Digit Counter
+
+### Problem Statement
+
+You need to develop a simple Java application to count the number of digits in a given number.
+
+---
+
+### Task: Count the Number of Digits in a Given Number
+
+- Use `Scanner` to take user input for the number.
+    
+- Initialize a counter variable to `0`.
+    
+- Use a `while` loop to repeatedly divide the number by `10` until it becomes `0`.
+    
+- Increment the counter variable in each iteration of the loop.
+    
+- Print the counter variable, which represents the number of digits in the number.
+    
+
+---
+
+### Expected Output
+
+**Input:**
+
+```
+12345
+```
+
+**Output:**
+
+```
+The number 12345 has 5 digits.
+```
+
+**Input:**
+
+```
+6789
+```
+
+**Output:**
+
+```
+The number 6789 has 4 digits.
+```
+
+---
+
+### Sample Input
+
+```
+11
+```
+
+### Sample Output
+
+```
+The number 11 has 2 digits.
+```
+
+---
+
+### Solution
+```java
+```
