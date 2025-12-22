@@ -36,15 +36,11 @@ A leap year is a year that:
 1900 is not a leap year.
 ```
 ---
-
 ### Sample Input
-
 ```
 2024
 ```
-
 ### Sample Output
-
 ```
 2024 is a leap year.
 ```
