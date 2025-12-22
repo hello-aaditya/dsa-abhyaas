@@ -285,4 +285,27 @@ The first 7 even numbers are:
 
 ### Solution
 ```java
+package a01_Building_Blocks_of_Math;
+
+import java.util.Scanner;
+public class PrintNEven {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		// Ask user for Input
+		System.out.print("ENTER A NUMBER: ");
+		int number = input.nextInt();
+		
+		int firstEven = 2;
+		
+		System.out.println("THE FIRST " + number + " EVEN NUMBER ARE: : ");
+		for(int i=1; i<=number; i++) {
+			System.out.println(firstEven);
+			firstEven += 2;
+		}
+		input.close();
+	}
+
+}
 ```
