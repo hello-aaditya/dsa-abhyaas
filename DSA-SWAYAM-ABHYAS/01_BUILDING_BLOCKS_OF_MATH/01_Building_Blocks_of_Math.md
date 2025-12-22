@@ -567,4 +567,32 @@ The number 11 has 2 digits.
 
 ### Solution
 ```java
+package a01_Building_Blocks_of_Math;
+
+import java.util.Scanner;
+
+public class DigitCounter {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		// Ask user for Input
+		System.out.println("ENTER A NUMBER: ");
+		int number = input.nextInt();
+		
+		int temp = number;
+
+		int digitCount = 0;
+		while(temp > 0) {
+			temp /= 10;
+			digitCount++;
+		}
+		
+		System.out.println("THE NUMBER " + number + " has " + digitCount + " digits.");
+		
+
+		input.close();
+	}
+
+}
 ```
