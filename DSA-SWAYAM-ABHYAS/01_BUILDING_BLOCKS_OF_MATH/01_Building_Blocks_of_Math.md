@@ -309,3 +309,111 @@ public class PrintNEven {
 
 }
 ```
+## 4. Temperature Predictor
+
+### Problem Statement
+
+You need to develop a simple Java application to assign a category to a given temperature.
+
+---
+
+### Temperature Categories
+
+- `< 0` : Freezing
+    
+- `0 – 15` : Cold
+    
+- `16 – 25` : Moderate
+    
+- `26 – 35` : Warm
+    
+- `> 35` : Hot
+    
+
+---
+
+### Task: Assign a Category to a Given Temperature
+
+- Use `Scanner` to take user input for the temperature.
+    
+- Use conditional statements to check the temperature range.
+    
+- Print the category corresponding to the temperature.
+    
+
+---
+
+### Expected Output
+
+**Input:**
+
+```
+-5
+```
+
+**Output:**
+
+```
+The temperature -5 is categorized as Freezing.
+```
+
+**Input:**
+
+```
+10
+```
+
+**Output:**
+
+```
+The temperature 10 is categorized as Cold.
+```
+
+---
+
+### Sample Input
+
+```
+-5
+```
+
+### Sample Output
+
+```
+The temperature -5 is categorized as Freezing.
+```
+
+---
+
+### Solution
+```java
+package a01_Building_Blocks_of_Math;
+
+import java.util.Scanner;
+
+public class TemperaturePredictor {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+
+		// Ask user for Input 
+		System.out.print("ENTER TEMPERATURE: ");
+		int temp = input.nextInt();
+		
+		if(temp < 0) {
+			System.out.println("THE TEMPERATURE " + temp + " IS CATEGORIZED AS FREEZING.");
+		} else if(temp >= 0 && temp <= 15) {
+			System.out.println("THE TEMPERATURE " + temp + " IS CATEGORIZED AS Cold.");
+		}  else if(temp >= 16 && temp <= 25) {
+			System.out.println("THE TEMPERATURE " + temp + " IS CATEGORIZED AS MODERATE.");
+		} else if(temp >= 26 && temp <= 35) {
+			System.out.println("THE TEMPERATURE " + temp + " IS CATEGORIZED AS WARM.");
+		} else if(temp > 35){
+			System.out.println("THE TEMPERATURE " + temp + " IS CATEGORIZED AS HOT.");
+		}
+		
+		input.close();
+	}
+
+}
+```
