@@ -205,3 +205,84 @@ public class VowelConsonant {
 	}
 }
 ```
+## 3. N Even Numbers
+
+### Problem Statement
+
+You need to develop a simple Java application to print the first **n even numbers**.
+
+---
+
+### Task: Print the First N Even Numbers
+
+- Use `Scanner` to take user input for the value of `n`.
+    
+- Use a `for` loop to iterate from `1` to `n`.
+    
+- In each iteration, calculate the even number by multiplying the loop counter by `2`.
+    
+- Print the calculated even number.
+    
+
+---
+
+### Expected Output
+
+**Input:**
+
+```
+n = 5
+```
+
+**Output:**
+
+```
+The first 5 even numbers are:
+2
+4
+6
+8
+10
+```
+
+**Input:**
+
+```
+n = 3
+```
+
+**Output:**
+
+```
+The first 3 even numbers are:
+2
+4
+6
+```
+
+---
+
+### Sample Input
+
+```
+7
+```
+
+### Sample Output
+
+```
+The first 7 even numbers are:
+2
+4
+6
+8
+10
+12
+14
+```
+
+---
+
+### Solution
+```java
+```
