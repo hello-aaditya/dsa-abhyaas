@@ -596,3 +596,130 @@ public class DigitCounter {
 
 }
 ```
+## 7. Armstrong Number
+
+### Problem Statement
+
+You need to develop a simple Java application to check if a given number is an Armstrong number.
+
+---
+
+### Explanation
+
+An **Armstrong number** (also known as a narcissistic number, pluperfect number, or pluperfect digital invariant) is a number that is equal to the sum of its own digits, each raised to the power of the number of digits.
+
+**Example:**
+
+- `153` is an Armstrong number because  
+    `1³ + 5³ + 3³ = 153`
+    
+
+---
+
+### Task: Check if a Given Number is an Armstrong Number
+
+- Use `Scanner` to take user input for the number.
+    
+- Calculate the number of digits in the number.
+    
+- Extract each digit of the number and raise it to the power of the number of digits.
+    
+- Sum these values.
+    
+- If the sum is equal to the original number, print that it is an Armstrong number.
+    
+- Otherwise, print that it is not an Armstrong number.
+    
+
+---
+
+### Expected Output
+
+**Input:**
+
+```
+153
+```
+
+**Output:**
+
+```
+153 is an Armstrong number.
+```
+
+**Input:**
+
+```
+123
+```
+
+**Output:**
+
+```
+123 is not an Armstrong number.
+```
+
+---
+
+### Sample Input
+
+```
+2222
+```
+
+### Sample Output
+
+```
+2222 is not an Armstrong number.
+```
+
+---
+
+### Solution
+```java
+package a01_Building_Blocks_of_Math;
+
+import java.util.Scanner;
+public class ArmstrongNumber {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		// Ask user for Input
+		System.out.print("ENTER A NUMBER: ");
+		int number = input.nextInt();
+		
+		int totalDigits = digitCount(number); 
+		
+		int temp = number;
+		int armstrong = 0;
+		
+		while(temp != 0) {
+			int lastDigit = temp % 10;
+			
+			armstrong += (Math.pow(lastDigit, totalDigits));
+			
+			temp /= 10;
+		}
+		
+		if(armstrong == number) {
+			System.out.println(number + " IS AN ARMSTRONG NUMBER.");
+		} else {
+			System.out.println(number + " IS NOT AN ARMSTRONG NUMBER.");
+		}
+		
+		input.close();
+	}
+	public static int digitCount(int number) {
+		int totalDigits = 0;
+		
+		while(number != 0 ) {
+			number /= 10;
+			totalDigits++;
+		}
+		
+		return totalDigits;
+	}
+
+}
+```
