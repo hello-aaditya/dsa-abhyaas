@@ -723,3 +723,86 @@ public class ArmstrongNumber {
 
 }
 ```
+## 8. Decimal to Binary
+
+### Problem Statement
+
+You need to develop a simple Java application to convert a decimal number to its binary equivalent.
+
+---
+
+### Explanation
+
+A decimal number can be converted to binary by repeatedly dividing the number by `2` and recording the remainders.  
+The binary equivalent is obtained by reading the sequence of remainders **from bottom to top**.
+
+---
+
+### Task: Convert a Given Decimal Number to Binary
+
+- Use `Scanner` to take user input for the decimal number.
+    
+- Use a loop to repeatedly divide the number by `2` and store the remainders.
+    
+- Print the binary equivalent of the given decimal number.
+    
+
+---
+
+### Expected Output
+
+**Input:**
+
+```
+10
+```
+
+**Output:**
+
+```
+The binary equivalent of 10 is 1010.
+```
+
+**Input:**
+
+```
+15
+```
+
+**Output:**
+
+```
+The binary equivalent of 15 is 1111.
+```
+
+**Input:**
+
+```
+23
+```
+
+**Output:**
+
+```
+The binary equivalent of 23 is 10111.
+```
+
+---
+
+### Sample Input
+
+```
+10
+```
+
+### Sample Output
+
+```
+The binary equivalent of 10 is 1010.
+```
+
+---
+
+### Solution
+```java
+```
