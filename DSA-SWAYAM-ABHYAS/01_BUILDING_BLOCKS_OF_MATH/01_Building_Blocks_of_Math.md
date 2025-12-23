@@ -837,3 +837,81 @@ public class DecimalToBinary {
 
 }
 ```
+## 9. Fibonacci Series
+
+### Problem Statement
+
+You need to develop a simple Java application to print the Fibonacci series up to a given number.
+
+---
+
+### Fibonacci Series Explanation
+
+The Fibonacci series is a sequence of numbers where each number is the sum of the two preceding ones, usually starting with `0` and `1`.
+
+**Example:**  
+Fibonacci series up to `10`:
+
+```
+0, 1, 1, 2, 3, 5, 8
+```
+
+---
+
+### Task: Print the Fibonacci Series Up to a Given Number
+
+- Use `Scanner` to take user input for the maximum number.
+    
+- Use a loop to generate the Fibonacci series.
+    
+- Print each number in the series until the series reaches or exceeds the given number.
+    
+
+---
+
+### Expected Output
+
+**Input:**
+
+```
+10
+```
+
+**Output:**
+
+```
+Fibonacci series up to 10: 0 1 1 2 3 5 8
+```
+
+**Input:**
+
+```
+21
+```
+
+**Output:**
+
+```
+Fibonacci series up to 21: 0 1 1 2 3 5 8 13 21
+```
+
+---
+
+### Sample Input
+
+```
+0
+```
+
+### Sample Output
+
+```
+Fibonacci series up to 0:
+0
+```
+
+---
+
+### Solution
+```java
+```
