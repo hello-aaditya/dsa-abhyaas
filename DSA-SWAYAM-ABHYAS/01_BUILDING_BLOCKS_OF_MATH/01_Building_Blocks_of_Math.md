@@ -805,4 +805,35 @@ The binary equivalent of 10 is 1010.
 
 ### Solution
 ```java
+package a01_Building_Blocks_of_Math;
+
+import java.util.Scanner;
+public class DecimalToBinary {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		// Ask User for Input 
+		System.out.print("ENTER A DECIMAL NUMBER: ");
+		int decimalNumber = input.nextInt();
+		
+		String binaryNumber = binaryConversion(decimalNumber);
+		
+		System.out.println("THE BINARY EQUIVALENT OF " + decimalNumber + " is " + binaryNumber + ".");
+	}
+	
+	public static String binaryConversion(int number) {
+		String binaryNumber = "";
+		
+		while(number != 0) {
+			int remainder = number % 2;
+			binaryNumber =  remainder + binaryNumber;
+			
+			number = number / 2;
+		}
+		return binaryNumber;
+		
+	}
+
+}
 ```
