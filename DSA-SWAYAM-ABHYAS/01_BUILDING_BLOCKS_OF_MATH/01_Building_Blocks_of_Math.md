@@ -945,3 +945,78 @@ public class FibonacciSeriesTillN {
 	}
 }
 ```
+## 10. Palindrome Checker
+
+### Problem Statement
+
+You need to develop a simple Java application to check if a given number is a palindrome.
+
+---
+
+### Explanation
+
+A **palindrome** is a number that remains the same when its digits are reversed.
+
+**Examples:**  
+`121`, `1331`, `12321`
+
+---
+
+### Task: Check if a Given Number is a Palindrome
+
+- Use `Scanner` to take user input for the number.
+    
+- Reverse the given number.
+    
+- Compare the reversed number with the original number.
+    
+- Print a message indicating whether the number is a palindrome.
+    
+
+---
+
+### Expected Output
+
+**Input:**
+
+```
+121
+```
+
+**Output:**
+
+```
+121 is a palindrome.
+```
+
+**Input:**
+
+```
+123
+```
+
+**Output:**
+
+```
+123 is not a palindrome.
+```
+
+---
+
+### Sample Input
+
+```
+121
+```
+
+### Sample Output
+
+```
+121 is a palindrome.
+```
+
+---
+
+### Solution
+```java
+```
