@@ -1350,6 +1350,35 @@ The smallest digit in 45932 is 2.
 
 ### Solution
 ```java
+package generalPrograms;
+
+
+
+import java.util.Scanner;
+public class smallestDigit {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("ENTER A NUMBER: ");
+		int number = input.nextInt();
+		
+		int smallestDigit = 10;
+		int temp = number;
+		
+		while(temp != 0) {
+			int lastDigit = temp % 10;
+			if(lastDigit < smallestDigit) {
+				smallestDigit = lastDigit;
+			}
+			
+			temp /= 10;
+		}
+		
+		System.out.println("THE SMALLEST DIGIT IN " + number + " IS " + smallestDigit + ".");
+		input.close();
+	}
+}
 ```
 ## 14. N Prime Numbers
 
@@ -1409,3 +1438,5 @@ The first 3 prime numbers are:
 ---
 
 ### Solution
+```java
+```
