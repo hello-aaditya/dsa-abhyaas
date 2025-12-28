@@ -1019,4 +1019,41 @@ A **palindrome** is a number that remains the same when its digits are reversed.
 
 ### Solution
 ```java
+package array;
+
+// Check if a given Number is a Palindrome
+
+import java.util.Scanner;
+public class PalindromeChecker {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.print("ENTER A NUMBER: ");
+		int number = input.nextInt();
+		
+		int reversedNumber = reverse(number); 
+		
+		if(reversedNumber == number) {
+			System.out.println(number + " is a palindrome.");
+		} else {
+			System.out.println(number + " is not a palindrome.");
+		}
+		
+		input.close();
+	}
+	public static int reverse(int number) {
+		int reverseNumber = 0;
+		
+		while(number != 0) {
+			int lastDigit = number % 10;
+			
+			reverseNumber = (reverseNumber * 10) + lastDigit;
+			
+			number /= 10;
+		}
+		
+		return reverseNumber;
+	}
+
+}
 ```
