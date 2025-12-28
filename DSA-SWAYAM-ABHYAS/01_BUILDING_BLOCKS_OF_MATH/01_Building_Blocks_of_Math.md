@@ -914,4 +914,33 @@ Fibonacci series up to 0:
 
 ### Solution
 ```java
+package array;
+
+
+
+import java.util.Scanner;
+public class FibonacciSeriesTillN {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("ENTER THE MAXIMUM NUMBER: ");
+		int maxNumber = input.nextInt();
+		
+		// Print the Fibonacci Series up to the given Number
+		System.out.print("FIBONACCI SERIES UP TO " + maxNumber + ": ");
+		int firstNumber = 0;
+		int secondNumber = 1;
+		int nextNumber = firstNumber + secondNumber;
+		
+			System.out.print(firstNumber + " ");
+			while(nextNumber <= maxNumber) {			
+				System.out.print(nextNumber + " ");
+				nextNumber = firstNumber + secondNumber;
+				firstNumber = secondNumber;
+				secondNumber = nextNumber;
+		}
+		input.close();
+	}
+}
 ```
