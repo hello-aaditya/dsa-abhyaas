@@ -1155,3 +1155,85 @@ public class SingleDigitSum {
 
 }
 ```
+## 12. GCD Program
+
+### Problem Statement
+
+You need to develop a simple Java application to find the **Greatest Common Divisor (GCD)** of two given numbers.
+
+---
+
+### Explanation
+
+The **Greatest Common Divisor (GCD)** of two numbers is the largest positive integer that divides both numbers without leaving a remainder.
+
+**Example:**  
+The GCD of `8` and `12` is `4`.
+
+---
+
+### Task: Find the GCD of Two Given Numbers
+
+- Use `Scanner` to take user input for the two numbers.
+    
+- Use the **Euclidean algorithm** to find the GCD.
+    
+
+---
+
+### Euclidean Algorithm
+
+1. Given two numbers `a` and `b` such that `a > b`, divide `a` by `b`.
+    
+2. If the remainder `r` is `0`, then `b` is the GCD.
+    
+3. If the remainder is not `0`, set `a = b` and `b = r`.
+    
+4. Repeat the process until the remainder becomes `0`.
+    
+
+---
+
+### Expected Output
+
+**Input:**
+
+```
+8 12
+```
+
+**Output:**
+
+```
+The GCD of 8 and 12 is 4.
+```
+
+**Input:**
+
+```
+100 25
+```
+
+**Output:**
+
+```
+The GCD of 100 and 25 is 25.
+```
+
+---
+
+### Sample Input
+
+```
+8 12
+```
+
+### Sample Output
+
+```
+The GCD of 8 and 12 is 4.
+```
+
+---
+
+### Solution
