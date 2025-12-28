@@ -1237,3 +1237,49 @@ The GCD of 8 and 12 is 4.
 ---
 
 ### Solution
+```java
+package generalPrograms;
+
+
+
+import java.util.Scanner;
+public class findGCD {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("ENTER FIRST NUMBER: ");
+		int number1 = input.nextInt();
+		
+		System.out.print("ENTER SECOND NUMBER: ");
+		int number2 = input.nextInt();
+		
+		System.out.println("The GCD of " + number1 + " and " + number2 + " is " + gcd(number1, number2) + ".");
+		
+		input.close();
+	}
+	
+	public static int gcd(int number1, int number2) {
+		int dividend;
+		int divisor;
+		if(number1 > number2) {
+			dividend = number1;
+			divisor = number2;
+		} else {
+			dividend = number2;
+			divisor = number1;
+		}
+		while(true) {
+			int quotient = dividend % divisor;
+			
+			if(quotient == 0) {
+				return divisor;
+			}
+			dividend = divisor;
+			divisor = quotient;
+		}
+		
+	}
+
+}
+```
