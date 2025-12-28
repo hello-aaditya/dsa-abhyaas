@@ -1351,3 +1351,61 @@ The smallest digit in 45932 is 2.
 ### Solution
 ```java
 ```
+## 14. N Prime Numbers
+
+### Problem Statement
+
+You need to develop a simple Java application to print the first **n prime numbers**.
+
+---
+
+### Task: Print the First N Prime Numbers
+
+- Use `Scanner` to take user input for the value of `n`.
+    
+- Use a `while` loop to find prime numbers until `n` prime numbers are found.
+    
+- In each iteration, check if the current number is prime.
+    
+- Print the prime number if it is found.
+    
+
+---
+
+### Expected Output
+
+**Input:**
+
+```
+n = 5
+```
+
+**Output:**
+
+```
+The first 5 prime numbers are:
+2
+3
+5
+7
+11
+```
+
+**Input:**
+
+```
+n = 3
+```
+
+**Output:**
+
+```
+The first 3 prime numbers are:
+2
+3
+5
+```
+
+---
+
+### Solution
