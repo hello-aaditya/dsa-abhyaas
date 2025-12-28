@@ -1057,3 +1057,101 @@ public class PalindromeChecker {
 
 }
 ```
+## 11. Single Digit Sum
+
+### Problem Statement
+
+You need to develop a simple Java application to calculate the sum of the digits of a number until it becomes a single-digit number.
+
+---
+
+### Task: Calculate the Sum of Digits Until It Becomes a Single-Digit Number
+
+- Use `Scanner` to take user input for the number.
+    
+- Use a loop to repeatedly calculate the sum of the digits of the number.
+    
+- Continue the process until the result becomes a single-digit number.
+    
+- Print the final single-digit result.
+    
+
+---
+
+### Expected Output
+
+**Input:**
+
+```
+9875
+```
+
+**Output:**
+
+```
+The single-digit sum of digits of 9875 is 2.
+```
+
+**Input:**
+
+```
+9999
+```
+
+**Output:**
+
+```
+The single-digit sum of digits of 9999 is 9.
+```
+
+---
+
+### Sample Input
+
+```
+9875
+```
+
+### Sample Output
+
+```
+The single-digit sum of digits of 9875 is 2.
+```
+
+---
+
+### Solution
+```java
+package array;
+
+
+
+import java.util.Scanner;
+public class SingleDigitSum {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("ENTER A NUMBER: ");
+		int number = input.nextInt();
+		int temp = number;
+		
+		int addition = temp;
+		while(addition >= 10) {
+			int currentSum = 0; 
+			while(temp != 0) {
+				int lastDigit = temp % 10;
+				currentSum += lastDigit;
+				temp /= 10;
+			}
+			addition = currentSum;
+			temp = currentSum;
+		}
+		
+		System.out.print("THE SINGLE-DIGIT SUM OF DIGITS OF " + number + " is " + addition + ".");
+		
+		input.close();
+	}
+
+}
+```
