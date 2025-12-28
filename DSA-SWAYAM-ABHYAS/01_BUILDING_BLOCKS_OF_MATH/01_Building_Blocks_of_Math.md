@@ -933,12 +933,13 @@ public class FibonacciSeriesTillN {
 		int secondNumber = 1;
 		int nextNumber = firstNumber + secondNumber;
 		
-			System.out.print(firstNumber + " ");
-			while(nextNumber <= maxNumber) {			
-				System.out.print(nextNumber + " ");
-				nextNumber = firstNumber + secondNumber;
-				firstNumber = secondNumber;
-				secondNumber = nextNumber;
+		System.out.print(firstNumber + " ");
+		while(nextNumber <= maxNumber) {			
+			System.out.print(nextNumber + " ");
+			
+			nextNumber = firstNumber + secondNumber;
+			firstNumber = secondNumber;
+			secondNumber = nextNumber;
 		}
 		input.close();
 	}
