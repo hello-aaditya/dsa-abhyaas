@@ -1283,3 +1283,71 @@ public class findGCD {
 
 }
 ```
+## 13. Smallest Digit
+
+### Problem Statement
+
+You need to develop a simple Java application to find the smallest digit in a given number.
+
+---
+
+### Task: Find the Smallest Digit in a Given Number
+
+- Use `Scanner` to take user input for the number.
+    
+- Initialize a variable to store the smallest digit.
+    
+- Use a `while` loop to extract each digit from the number.
+    
+- Compare each digit with the current smallest digit and update it accordingly.
+    
+- Print the smallest digit.
+    
+
+---
+
+### Expected Output
+
+**Input:**
+
+```
+45932
+```
+
+**Output:**
+
+```
+The smallest digit in 45932 is 2.
+```
+
+**Input:**
+
+```
+981273
+```
+
+**Output:**
+
+```
+The smallest digit in 981273 is 1.
+```
+
+---
+
+### Sample Input
+
+```
+45932
+```
+
+### Sample Output
+
+```
+The smallest digit in 45932 is 2.
+```
+
+---
+
+### Solution
+```java
+```
