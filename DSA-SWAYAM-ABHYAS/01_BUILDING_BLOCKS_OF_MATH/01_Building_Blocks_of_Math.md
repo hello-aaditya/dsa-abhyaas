@@ -1538,4 +1538,23 @@ celsius = (fahrenheit - 32) * 5 / 9
 
 ### Solution
 ```java
+package generalPrograms;
+
+import java.util.Scanner;
+public class FarenheitToCelsius {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("ENTER TEMPERATURE (in °F): ");
+		double fareheit = input.nextDouble();
+		
+		double celsius =  (fareheit - 32) * 5/9;
+		
+		System.out.println(fareheit + "°F" + " = " + celsius + "°C");
+		
+		input.close();
+	}
+
+}
 ```
