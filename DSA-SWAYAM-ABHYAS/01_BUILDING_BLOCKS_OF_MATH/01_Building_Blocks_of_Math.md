@@ -1439,4 +1439,45 @@ The first 3 prime numbers are:
 
 ### Solution
 ```java
+package generalPrograms;
+
+
+
+import java.util.Scanner;
+public class nPrimeNumbers {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("ENTER A NUMBER: ");
+		int number = input.nextInt();
+		
+		System.out.println("THE FIRST " + number + " PRIME NUMBERS ARE: ");
+		for(int i=1; i<=number; i++) {
+			if(isPrime(i) == true) {
+				System.out.println(i);
+			} else {
+				number++;
+			}
+		}
+		
+		input.close();
+	}
+	
+	public static boolean isPrime(int number) {
+		
+		if(number == 1) {
+			return false;
+		} else if(number == 2) {
+			return true;
+		}
+		
+		for(int i=2; i<=number/2; i++) {
+			if( (number % i) == 0) {
+				return false;
+			}
+		}
+		return true;
+	}
+}
 ```
