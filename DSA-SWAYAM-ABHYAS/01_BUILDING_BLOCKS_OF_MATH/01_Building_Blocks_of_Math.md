@@ -1481,3 +1481,61 @@ public class nPrimeNumbers {
 	}
 }
 ```
+## 15. Fahrenheit to Celsius Conversion in Java
+
+### Problem Statement
+
+You are a software developer for a weather forecasting app. The app retrieves data in Fahrenheit format, but your viewers are in a country that uses Celsius for temperature measurements. Implement a Java program to convert the temperature from Fahrenheit to Celsius. The program should prompt the user to enter the temperature in Fahrenheit.
+
+---
+
+### Formula
+
+```
+celsius = (fahrenheit - 32) * 5 / 9
+```
+
+---
+
+### Task: Convert Fahrenheit to Celsius
+
+- Use `Scanner` to take user input for the temperature in Fahrenheit.
+    
+- Apply the conversion formula to calculate the temperature in Celsius.
+    
+- Print the converted temperature.
+    
+
+---
+
+### Sample Input
+
+```
+98
+```
+
+### Sample Output
+
+```
+36.666666666666664
+```
+
+---
+
+### Sample Input
+
+```
+27.5
+```
+
+### Sample Output
+
+```
+-2.5
+```
+
+---
+
+### Solution
+```java
+```
