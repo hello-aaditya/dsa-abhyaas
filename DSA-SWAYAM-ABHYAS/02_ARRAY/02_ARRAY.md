@@ -1,13 +1,15 @@
 # ARRAY
 
-| S NO. | PROBLEM          | PLATFORM LINK                                                           | SOLVE STATUS |
-| ----- | ---------------- | ----------------------------------------------------------------------- | ------------ |
-| 1.    | Maximum Subarray | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | ✔️           |
+| S NO. | PROBLEM                  | PLATFORM LINK                                                                            | SOLVE STATUS |
+| ----- | ------------------------ | ---------------------------------------------------------------------------------------- | ------------ |
+| 1.    | Maximum Subarray         | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)                  | ✔️           |
+| 2.    | Maximum Product Subarray | [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) |              |
 
 
-| S NO. | PROBLEM          | PLATFORM LINK                                                           | CORE CONCEPT                                   | LEVEL | SOLUTION                    |
-| ----- | ---------------- | ----------------------------------------------------------------------- | ---------------------------------------------- | ----- | --------------------------- |
-| 1.    | Maximum Subarray | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Kadane's Algorithm](02.1_KADANE_ALGORITHM.md) | EASY  | [View](#1-Maximum-Subarray) |
+| S NO. | PROBLEM                  | PLATFORM LINK                                                                            | CORE CONCEPT                                   | LEVEL | SOLUTION                    |
+| ----- | ------------------------ | ---------------------------------------------------------------------------------------- | ---------------------------------------------- | ----- | --------------------------- |
+| 1.    | Maximum Subarray         | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)                  | [Kadane's Algorithm](02.1_KADANE_ALGORITHM.md) | EASY  | [View](#1-Maximum-Subarray) |
+| 2.    | Maximum Product Subarray | [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) |                                                |       |                             |
 # 1-Maximum-Subarray
 ```java
 class Solution {
