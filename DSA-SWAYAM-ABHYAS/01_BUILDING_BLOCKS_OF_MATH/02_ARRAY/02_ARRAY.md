@@ -5,9 +5,9 @@
 | 1.    | Maximum Subarray | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | ✔️           |
 
 
-| S NO. | PROBLEM          | PLATFORM LINK                                                           | CORE CONCEPT       | LEVEL | SOLUTION                    |
-| ----- | ---------------- | ----------------------------------------------------------------------- | ------------------ | ----- | --------------------------- |
-| 1.    | Maximum Subarray | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Kadane's Algorithm | EASY  | [View](#1-Maximum-Subarray) |
+| S NO. | PROBLEM          | PLATFORM LINK                                                           | CORE CONCEPT         | LEVEL | SOLUTION                    |
+| ----- | ---------------- | ----------------------------------------------------------------------- | -------------------- | ----- | --------------------------- |
+| 1.    | Maximum Subarray | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Kadane's Algorithm] | EASY  | [View](#1-Maximum-Subarray) |
 # 1-Maximum-Subarray
 ```java
 class Solution {
