@@ -6,6 +6,7 @@
 | 2.    | Maximum Product Subarray           | [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)                   | ✔️           |
 | 3.    | Two Sum II - Input Array Is Sorted | [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | ✔️           |
 | 4.    | Happy Number<br>                   | [202. Happy Number](https://leetcode.com/problems/happy-number/)<br>                                       | ✔️           |
+| 5.    |                                    |                                                                                                            |              |
 
 
 | S NO. | PROBLEM                            | PLATFORM LINK                                                                                              | CORE CONCEPT                                   | LEVEL    | SOLUTION                            |
