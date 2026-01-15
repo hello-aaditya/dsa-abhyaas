@@ -5,6 +5,7 @@
 | 1.    | Maximum Subarray                   | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)                                    | ✔️           |
 | 2.    | Maximum Product Subarray           | [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)                   | ✔️           |
 | 3.    | Two Sum II - Input Array Is Sorted | [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | ✔️           |
+| 4.    | Happy Number<br>                   | [202. Happy Number](https://leetcode.com/problems/happy-number/)<br>                                       |              |
 
 
 | S NO. | PROBLEM                            | PLATFORM LINK                                                                                              | CORE CONCEPT                                   | LEVEL    | SOLUTION                            |
@@ -12,6 +13,7 @@
 | 1.    | Maximum Subarray                   | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)                                    | [Kadane's Algorithm](02.1_KADANE_ALGORITHM.md) | EASY     | [View](#1-Maximum-Subarray)         |
 | 2.    | Maximum Product Subarray           | [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)                   | [Kadane's Algorithm](02.1_KADANE_ALGORITHM.md) | MODERATE | [View](#2-Maximum-Product-Subarray) |
 | 3.    | Two Sum II - Input Array Is Sorted | [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Two Pointer                                    | EASY     | [View](#3-Two-Sum-II)               |
+| 4.    | Happy Number                       | [202. Happy Number](https://leetcode.com/problems/happy-number/)                                           |                                                |          |                                     |
 # 1-Maximum-Subarray
 ```java
 class Solution {
