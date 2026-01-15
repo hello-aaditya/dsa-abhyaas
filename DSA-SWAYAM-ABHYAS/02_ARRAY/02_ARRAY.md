@@ -13,7 +13,7 @@
 | 1.    | Maximum Subarray                   | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)                                    | [Kadane's Algorithm](02.1_KADANE_ALGORITHM.md) | EASY     | [View](#1-Maximum-Subarray)         |
 | 2.    | Maximum Product Subarray           | [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)                   | [Kadane's Algorithm](02.1_KADANE_ALGORITHM.md) | MODERATE | [View](#2-Maximum-Product-Subarray) |
 | 3.    | Two Sum II - Input Array Is Sorted | [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Two Pointer                                    | EASY     | [View](#3-Two-Sum-II)               |
-| 4.    | Happy Number                       | [202. Happy Number](https://leetcode.com/problems/happy-number/)                                           |                                                | EASY     |                                     |
+| 4.    | Happy Number                       | [202. Happy Number](https://leetcode.com/problems/happy-number/)                                           |                                                | EASY     | [View](#4-Happy-Number)             |
 # 1-Maximum-Subarray
 ```java
 class Solution {
@@ -108,6 +108,7 @@ class Solution {
             if (sum == 1) {
                 return true;
             }
+            
             if (set.contains(sum)) {
                 return false;
             } else if (!set.contains(sum)) {
@@ -116,4 +117,5 @@ class Solution {
             n = sum;
         }
     }
-}```
+}
+```
