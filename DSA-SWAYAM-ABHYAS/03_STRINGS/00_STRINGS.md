@@ -4,6 +4,7 @@
 | ----- | ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------ |
 | 1.    | Reverse String                      | [344. Reverse String](https://leetcode.com/problems/reverse-string/)                                                    | ✔️           |
 | 2.    | Reverse a string with spaces intact | [Reverse a string with spaces intact](https://www.geeksforgeeks.org/problems/reverse-a-string-with-spaces-intact5213/1) |              |
+| 3.    | Reverse Words in a String           | [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)                              |              |
 
 
 
