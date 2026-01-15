@@ -14,8 +14,8 @@
 | 1.    | Maximum Subarray                    | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)                                    | [Kadane's Algorithm](02.1_KADANE_ALGORITHM.md) | EASY     | [View](#1-Maximum-Subarray)                |
 | 2.    | Maximum Product Subarray            | [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)                   | [Kadane's Algorithm](02.1_KADANE_ALGORITHM.md) | MODERATE | [View](#2-Maximum-Product-Subarray)        |
 | 3.    | Best Time to Buy and Sell Stock<br> | [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)     | [Kadane's Algorithm](02.1_KADANE_ALGORITHM.md) | MODERATE | [View](#3-Best-Time-to-Buy-and-Sell-Stock) |
-| 4.    | Two Sum II - Input Array Is Sorted  | [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Two Pointer                                    | EASY     | [View](#3-Two-Sum-II)                      |
-| 5.    | Happy Number                        | [202. Happy Number](https://leetcode.com/problems/happy-number/)                                           |                                                | EASY     | [View](#4-Happy-Number)                    |
+| 4.    | Two Sum II - Input Array Is Sorted  | [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Two Pointer                                    | EASY     | [View](#4-Two-Sum-II)                      |
+| 5.    | Happy Number                        | [202. Happy Number](https://leetcode.com/problems/happy-number/)                                           |                                                | EASY     | [View](#5-Happy-Number)                    |
 # 1-Maximum-Subarray
 ```java
 class Solution {
