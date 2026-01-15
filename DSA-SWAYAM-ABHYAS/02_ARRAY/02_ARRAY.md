@@ -5,6 +5,7 @@
 | 1.    | Two Sum II - Input Array Is Sorted | [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | ✔️           |
 | 2.    | Happy Number<br>                   | [202. Happy Number](https://leetcode.com/problems/happy-number/)<br>                                       | ✔️           |
 | 3.    | Find Peak Element                  | [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)                                 |              |
+| 4.    |                                    |                                                                                                            |              |
 
 
 | S NO. | PROBLEM                            | PLATFORM LINK                                                                                              | CORE CONCEPT | LEVEL | SOLUTION                |
