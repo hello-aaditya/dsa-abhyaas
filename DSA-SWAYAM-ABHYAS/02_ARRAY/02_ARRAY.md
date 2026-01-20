@@ -7,6 +7,7 @@
 | 3.    | Sort an Array                      | [912. Sort an Array](https://leetcode.com/problems/sort-an-array/)                                         |              |
 | 4.    | Two Sum II - Input Array Is Sorted | [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | ✔️           |
 | 5.    | Happy Number<br>                   | [202. Happy Number](https://leetcode.com/problems/happy-number/)<br>                                       | ✔️           |
+| 6.    | Ceil in a Sorted Array             | [Ceil in a Sorted Array](https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1)                  |              |
 
 
 | S NO. | PROBLEM                            | PLATFORM LINK                                                                                              | CORE CONCEPT | LEVEL | SOLUTION                |
@@ -16,6 +17,7 @@
 | 3.    | Sort an Array                      | [912. Sort an Array](https://leetcode.com/problems/sort-an-array/)                                         |              |       |                         |
 | 4.    | Two Sum II - Input Array Is Sorted | [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Two Pointer  | EASY  | [View](#4-Two-Sum-II)   |
 | 5.    | Happy Number                       | [202. Happy Number](https://leetcode.com/problems/happy-number/)                                           |              | EASY  | [View](#5-Happy-Number) |
+| 6.    | Ceil in a Sorted Array             | [Ceil in a Sorted Array](https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1)                  |              |       |                         |
 # 4-Two-Sum-II
 ```java
 class Solution {
