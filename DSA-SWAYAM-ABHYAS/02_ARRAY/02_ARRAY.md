@@ -8,18 +8,18 @@
 | 4.    | Two Sum II - Input Array Is Sorted | [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | ✔️           |
 | 5.    | Happy Number<br>                   | [202. Happy Number](https://leetcode.com/problems/happy-number/)<br>                                       | ✔️           |
 | 6.    | Ceil in a Sorted Array             | [Ceil in a Sorted Array](https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1)                  | ✔️           |
-| 7.    | Floor in a Sorted Array            | [Floor in a Sorted Array](https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1)     |              |
+| 7.    | Floor in a Sorted Array            | [Floor in a Sorted Array](https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1)     | ✔️           |
 
 
-| S NO. | PROBLEM                            | PLATFORM LINK                                                                                              | CORE CONCEPT  | LEVEL | SOLUTION                          |
-| ----- | ---------------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------- | ----- | --------------------------------- |
-| 1.    | Find Peak Element                  | [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)                                 |               |       |                                   |
-| 2.    | Binary Search                      | [704. Binary Search](https://leetcode.com/problems/binary-search/)                                         |               |       |                                   |
-| 3.    | Sort an Array                      | [912. Sort an Array](https://leetcode.com/problems/sort-an-array/)                                         |               |       |                                   |
-| 4.    | Two Sum II - Input Array Is Sorted | [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Two Pointer   | EASY  | [View](#4-Two-Sum-II)             |
-| 5.    | Happy Number                       | [202. Happy Number](https://leetcode.com/problems/happy-number/)                                           |               | EASY  | [View](#5-Happy-Number)           |
-| 6.    | Ceil in a Sorted Array             | [Ceil in a Sorted Array](https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1)                  | BINARY SEARCH | EASY  | [View](#6-Ceil-in-a-Sorted-Array) |
-| 7.    | Floor in a Sorted Array            | [Floor in a Sorted Array](https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1)     |               |       |                                   |
+| S NO. | PROBLEM                            | PLATFORM LINK                                                                                              | CORE CONCEPT  | LEVEL | SOLUTION                           |
+| ----- | ---------------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------- | ----- | ---------------------------------- |
+| 1.    | Find Peak Element                  | [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)                                 |               |       |                                    |
+| 2.    | Binary Search                      | [704. Binary Search](https://leetcode.com/problems/binary-search/)                                         |               |       |                                    |
+| 3.    | Sort an Array                      | [912. Sort an Array](https://leetcode.com/problems/sort-an-array/)                                         |               |       |                                    |
+| 4.    | Two Sum II - Input Array Is Sorted | [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Two Pointer   | EASY  | [View](#4-Two-Sum-II)              |
+| 5.    | Happy Number                       | [202. Happy Number](https://leetcode.com/problems/happy-number/)                                           |               | EASY  | [View](#5-Happy-Number)            |
+| 6.    | Ceil in a Sorted Array             | [Ceil in a Sorted Array](https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1)                  | BINARY SEARCH | EASY  | [View](#6-Ceil-in-a-Sorted-Array)  |
+| 7.    | Floor in a Sorted Array            | [Floor in a Sorted Array](https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1)     | BINARY SEARCH | EASY  | [View](#7-Floor-in-a-Sorted-Array) |
 # 4-Two-Sum-II
 ```java
 class Solution {
@@ -99,4 +99,27 @@ class Solution {
 ```
 # 7-Floor-in-a-Sorted-Array
 ```java
+class Solution {
+    public int findFloor(int[] arr, int x) {
+        // code here
+        int start = 0;
+        int end = arr.length-1;
+        
+        int floor = -1;
+        while (start <= end) {
+            int mid = start + (end - start) / 2;
+            
+            if (arr[mid] == x) {
+                floor = mid;
+                start = mid + 1;
+            } else if (arr[mid] > x) {
+                end = mid - 1;
+            } else {
+                floor = mid;
+                start = mid + 1;
+            }
+        }
+        return floor;
+    }
+}
 ```
