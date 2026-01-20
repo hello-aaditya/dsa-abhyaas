@@ -9,19 +9,19 @@
 | 5.    | Happy Number<br>                         | [202. Happy Number](https://leetcode.com/problems/happy-number/)<br>                                                     | ✔️           |
 | 6.    | Ceil in a Sorted Array                   | [Ceil in a Sorted Array](https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1)                                | ✔️           |
 | 7.    | Floor in a Sorted Array                  | [Floor in a Sorted Array](https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1)                   | ✔️           |
-| 8.    | Find Smallest Letter Greater Than Target | [744. Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) |              |
+| 8.    | Find Smallest Letter Greater Than Target | [744. Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | ✔️           |
 
 
-| S NO. | PROBLEM                                  | PLATFORM LINK                                                                                                            | CORE CONCEPT  | LEVEL | SOLUTION                                             |
-| ----- | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------- | ----- | ---------------------------------------------------- |
-| 1.    | Find Peak Element                        | [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)                                               |               |       |                                                      |
-| 2.    | Binary Search                            | [704. Binary Search](https://leetcode.com/problems/binary-search/)                                                       |               |       |                                                      |
-| 3.    | Sort an Array                            | [912. Sort an Array](https://leetcode.com/problems/sort-an-array/)                                                       |               |       |                                                      |
-| 4.    | Two Sum II - Input Array Is Sorted       | [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)               | Two Pointer   | EASY  | [View](#4-Two-Sum-II)                                |
-| 5.    | Happy Number                             | [202. Happy Number](https://leetcode.com/problems/happy-number/)                                                         |               | EASY  | [View](#5-Happy-Number)                              |
-| 6.    | Ceil in a Sorted Array                   | [Ceil in a Sorted Array](https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1)                                | BINARY SEARCH | EASY  | [View](#6-Ceil-in-a-Sorted-Array)                    |
-| 7.    | Floor in a Sorted Array                  | [Floor in a Sorted Array](https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1)                   | BINARY SEARCH | EASY  | [View](#7-Floor-in-a-Sorted-Array)                   |
-| 8.    | Find Smallest Letter Greater Than Target | [744. Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | BINARY SEARCH |       | [View](#-8-Find-Smallest-Letter-Greater-Than-Target) |
+| S NO. | PROBLEM                                  | PLATFORM LINK                                                                                                            | CORE CONCEPT  | LEVEL | SOLUTION                                            |
+| ----- | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------- | ----- | --------------------------------------------------- |
+| 1.    | Find Peak Element                        | [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)                                               |               |       |                                                     |
+| 2.    | Binary Search                            | [704. Binary Search](https://leetcode.com/problems/binary-search/)                                                       |               |       |                                                     |
+| 3.    | Sort an Array                            | [912. Sort an Array](https://leetcode.com/problems/sort-an-array/)                                                       |               |       |                                                     |
+| 4.    | Two Sum II - Input Array Is Sorted       | [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)               | Two Pointer   | EASY  | [View](#4-Two-Sum-II)                               |
+| 5.    | Happy Number                             | [202. Happy Number](https://leetcode.com/problems/happy-number/)                                                         |               | EASY  | [View](#5-Happy-Number)                             |
+| 6.    | Ceil in a Sorted Array                   | [Ceil in a Sorted Array](https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1)                                | BINARY SEARCH | EASY  | [View](#6-Ceil-in-a-Sorted-Array)                   |
+| 7.    | Floor in a Sorted Array                  | [Floor in a Sorted Array](https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1)                   | BINARY SEARCH | EASY  | [View](#7-Floor-in-a-Sorted-Array)                  |
+| 8.    | Find Smallest Letter Greater Than Target | [744. Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | BINARY SEARCH | EASY  | [View](#8-Find-Smallest-Letter-Greater-Than-Target) |
 # 4-Two-Sum-II
 ```java
 class Solution {
