@@ -12,6 +12,7 @@
 | 8.    | Find Smallest Letter Greater Than Target                          | [744. Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)                                    | ✔️           |
 | 9.    | Find First and Last Position of Element in Sorted Array           | [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)       | ✔️           |
 | 10    | Find position of an element in a sorted array of infinite numbers | [Find position of an element in a sorted array of infinite numbers](https://www.geeksforgeeks.org/dsa/find-position-element-sorted-array-infinite-numbers/) | ✔️           |
+| 11.   | Peak Index in a Mountain Array                                    | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)                                                             |              |
 
 
 | S NO. | PROBLEM                                                           | PLATFORM LINK                                                                                                                                               | CORE CONCEPT  | LEVEL    | SOLUTION                                                           |
@@ -26,6 +27,7 @@
 | 8.    | Find Smallest Letter Greater Than Target                          | [744. Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)                                    | BINARY SEARCH | EASY     | [View](#8-Find-Smallest-Letter-Greater-Than-Target)                |
 | 9.    | Find First and Last Position of Element in Sorted Array           | [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)       | BINARY SEARCH | MODERATE | [View](#9-Find-First-and-Last-Position-of-Element-in-Sorted-Array) |
 | 10.   | Find position of an element in a sorted array of infinite numbers | [Find position of an element in a sorted array of infinite numbers](https://www.geeksforgeeks.org/dsa/find-position-element-sorted-array-infinite-numbers/) | BINARY SEARCH | MODERATE | [View](#9-Find-First-and-Last-Position-of-Element-in-Sorted-Array) |
+| 11.   | Peak Index in a Mountain Array                                    | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)                                                             |               |          |                                                                    |
 # 4-Two-Sum-II
 ```java
 class Solution {
@@ -264,3 +266,4 @@ public class binarySearchWithoutUsingLengthFunction {
 
 }
 ```
+# 11-Peak-Index in a Mountain Array
