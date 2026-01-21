@@ -33,7 +33,7 @@
 | 11.   | Peak Index in a Mountain Array                                    | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)                                                             | BINARY SEARCH | EASY     | [View](#11-Peak-Index-in-a-Mountain-Array)                                                                            |
 | 12.   | Find in Mountain Array                                            | [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/)                                                                             | BINARY SEARCH | HARD     | [View](#12-Find-in-Mountain-Array)                                                                                    |
 | 13.   | Find Minimum in Rotated Sorted Array                              | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)                                                 | BINARY SEARCH | MODERATE | [View](#13-Find-Minimum-in-Rotated-Sorted-Array)<br><br>[Video Solution](https://www.youtube.com/watch?v=Jin6vO0MdzY) |
-| 14.   | Search in Rotated Sorted Array                                    | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)                                                             | BINARY SEARCH | HARD     |                                                                                                                       |
+| 14.   | Search in Rotated Sorted Array                                    | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)                                                             | BINARY SEARCH | HARD     | [View](#14-Search-in-Rotated-Sorted-Array)<br>Pre-requisite                                                           |
 # 4-Two-Sum-II
 ```java
 class Solution {
@@ -394,4 +394,58 @@ class Solution {
     }
 }
 ```
-# 14-Search in Rotated Sorted Array
+# 14-Search-in-Rotated-Sorted-Array
+```java
+class Solution {
+    public int search(int[] nums, int target) {
+        int size = nums.length;
+
+        int pivot = minimumInRotatedSorted(nums);
+        
+        int start = 0;
+        int end = pivot-1;
+
+        int findKey = binarySearch(nums, target, start, end);
+
+        if (findKey != -1) {
+            return findKey;
+        } else {
+            start = pivot;
+            end = size-1;
+            return binarySearch(nums, target, start, end);
+        }
+
+    }
+    public static int minimumInRotatedSorted(int[] arr) {
+
+        int size = arr.length;
+        int start = 0;
+        int end = size - 1;
+
+        while (start < end) {
+            int mid = start + (end - start) / 2;
+
+            if (arr[mid] > arr[end]) {
+                start = mid + 1;
+            } else {
+                end = mid;
+            }
+        }
+        return end;
+    }
+    public static int binarySearch(int[] arr, int target, int start, int end) {
+        while (start <= end) {
+            int mid = start + (end - start) / 2;
+
+            if (arr[mid] == target) {
+                return mid;
+            } else if (arr[mid] > target) {
+                end = mid - 1;
+            } else {
+                start = mid + 1;
+            }
+        }
+        return -1;
+    }
+}
+```
