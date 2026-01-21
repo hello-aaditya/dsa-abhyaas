@@ -25,7 +25,7 @@
 | 7.    | Floor in a Sorted Array                                           | [Floor in a Sorted Array](https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1)                                                      | BINARY SEARCH | EASY     | [View](#7-Floor-in-a-Sorted-Array)                                 |
 | 8.    | Find Smallest Letter Greater Than Target                          | [744. Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)                                    | BINARY SEARCH | EASY     | [View](#8-Find-Smallest-Letter-Greater-Than-Target)                |
 | 9.    | Find First and Last Position of Element in Sorted Array           | [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)       | BINARY SEARCH | MODERATE | [View](#9-Find-First-and-Last-Position-of-Element-in-Sorted-Array) |
-| 10.   | Find position of an element in a sorted array of infinite numbers | [Find position of an element in a sorted array of infinite numbers](https://www.geeksforgeeks.org/dsa/find-position-element-sorted-array-infinite-numbers/) | BINARY SEARCH | MODERATE |                                                                    |
+| 10.   | Find position of an element in a sorted array of infinite numbers | [Find position of an element in a sorted array of infinite numbers](https://www.geeksforgeeks.org/dsa/find-position-element-sorted-array-infinite-numbers/) | BINARY SEARCH | MODERATE | [View](#9-Find-First-and-Last-Position-of-Element-in-Sorted-Array) |
 # 4-Two-Sum-II
 ```java
 class Solution {
