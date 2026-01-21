@@ -215,7 +215,8 @@ class Solution {
 }
 ```
 # 10-Find-position-of-an-element-in-a-sorted-array-of-infinite-numbers
-**Note:** You are not allowed to use `.length()` function.
+> **Note:** You are not allowed to use `.length()` function. 
+You have to find the position of first occurrence of *TARGET* 
 ```java
 package searchingProblems;
 
