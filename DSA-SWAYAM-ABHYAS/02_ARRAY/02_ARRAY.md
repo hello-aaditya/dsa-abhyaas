@@ -15,6 +15,7 @@
 | 11.   | Peak Index in a Mountain Array                                    | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)                                                             | ✔️           |
 | 12.   | Find in Mountain Array                                            | [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/)                                                                             | ✔️           |
 | 13.   | Find Minimum in Rotated Sorted Array                              | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)                                                 | ✔️           |
+| 14.   | Search in Rotated Sorted Array                                    | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)                                                             |              |
 
 
 | S NO. | PROBLEM                                                           | PLATFORM LINK                                                                                                                                               | CORE CONCEPT  | LEVEL    | SOLUTION                                                                                                              |
