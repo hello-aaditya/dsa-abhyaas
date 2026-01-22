@@ -16,7 +16,8 @@ status = status.trim();
 
 await tp.file.move(`dsa-abhyaas/DSA/problems/${filename}`);
 
-// ✅ Update master list
+// ✅ wait so content gets saved properly, then update master list
+await tp.system.sleep(2000);
 await tp.user.update_dsa_master();
 -%>
 ---
