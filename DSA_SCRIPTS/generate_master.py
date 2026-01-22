@@ -124,14 +124,14 @@ def main():
     )
 
     # Write master file
-    content = f"""# DSA MASTER LIST ✅
+    content = f"""# DSA MASTER LIST
 
-## ✅ Table 1: Quick View
+## Table 1: Quick View
 {quick_table}
 
 ---
 
-## ✅ Table 2: Approach View
+## Table 2: Approach View
 {detail_table}
 """
 
