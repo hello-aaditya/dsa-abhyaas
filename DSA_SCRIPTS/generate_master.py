@@ -78,35 +78,43 @@ def main():
         approach = fm.get("approach", "").strip()
         level = fm.get("level", "").strip()
 
-        # Keep only notes that have at least problem + link
+        prereq = fm.get("prerequisite", "").strip()
+        video = fm.get("video", "").strip()
+
+        # Must have at least problem + platform link
         if not problem or not link:
             continue
 
-        # Create solution link -> opens your Obsidian note
-        # relative path from DSA folder, so it works in Obsidian + GitHub
+        # ✅ Solution link -> opens your Obsidian note (works on GitHub too)
         relative_note_path = os.path.relpath(path, os.path.join(BASE_DIR, "DSA"))
         relative_note_path = relative_note_path.replace("\\", "/")
         solution_link = md_link("View", f"./{relative_note_path}")
 
+        # ✅ optional links
+        prereq_link = md_link("Open", prereq) if prereq else "-"
+        video_link = md_link("Watch", video) if video else "-"
+
         data.append({
             "problem": problem,
             "link": link,
-            "status": status if status else "Pending",
+            "status": status if status else "PENDING",
             "approach": approach if approach else "-",
             "level": level if level else "-",
-            "solution": solution_link
+            "solution": solution_link,
+            "prerequisite": prereq_link,
+            "video": video_link,
         })
 
-    # Sort for Table 1: by problem name
+    # ---------------- TABLE 1: Quick View ----------------
+    # Sort by problem name
     data.sort(key=lambda x: x["problem"].lower())
 
-    # ---------------- TABLE 1: Quick View ----------------
     quick_rows = []
     for i, p in enumerate(data, start=1):
         quick_rows.append([
             i,
             p["problem"],                 # NOT clickable
-            md_link("Open", p["link"]),   # Platform link
+            md_link("Open", p["link"]),   # platform link
             p["status"]
         ])
 
@@ -116,7 +124,7 @@ def main():
     )
 
     # ---------------- TABLE 2: Detailed View ----------------
-    # Sort by approach then by problem name
+    # Sort by approach then problem name
     data2 = sorted(data, key=lambda x: (x["approach"].lower(), x["problem"].lower()))
 
     detail_rows = []
@@ -124,14 +132,16 @@ def main():
         detail_rows.append([
             i,
             p["problem"],                 # NOT clickable
-            md_link("Open", p["link"]),   # Platform link
+            md_link("Open", p["link"]),   # platform link
             p["approach"],
             p["level"],
-            p["solution"]                 # Obsidian solution note link
+            p["prerequisite"],
+            p["video"],
+            p["solution"]
         ])
 
     detail_table = build_markdown_table(
-        ["S No.", "Problem Name", "Platform Link", "Approach", "Level", "Solution"],
+        ["S No.", "Problem Name", "Platform Link", "Approach", "Level", "Pre-requisite", "Video Solution", "Solution"],
         detail_rows
     )
 

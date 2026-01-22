@@ -2,7 +2,7 @@
 problem: Find Smallest Letter Greater Than Target
 link: https://leetcode.com/problems/find-smallest-letter-greater-than-target/
 status: Done
-approach: BINARY SEARCH
+approach: Binary Search
 level: EASY
 ---
 

@@ -2,7 +2,7 @@
 problem: Ceil in a Sorted Array
 link: https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1
 status: Done
-approach: BINARY SEARCH
+approach: Binary Search
 level: EASY
 ---
 

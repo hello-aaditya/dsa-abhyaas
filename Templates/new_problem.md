@@ -6,18 +6,37 @@ const filename = title
   .replace(/[^a-zA-Z0-9]+/g, "_")
   .replace(/^_+|_+$/g, "");
 
+// ✅ Dropdowns
+const statusOptions = ["PENDING", "DONE"];
+const levelOptions = ["EASY", "MODERATE", "HARD"];
+const approachOptions = [
+  "Binary Search",
+  "Two Pointer",
+  "Sliding Window",
+  "Kadane's Algorithm",
+  "Prefix Sum",
+  "Hashing",
+  "Sorting",
+  "Recursion",
+  "Backtracking",
+  "Greedy",
+  "Dynamic Programming",
+  "Graph",
+  "Tree",
+  "Stack",
+  "Queue"
+];
+
+const status = await tp.system.suggester(statusOptions, statusOptions);
+const level = await tp.system.suggester(levelOptions, levelOptions);
+const approach = await tp.system.suggester(approachOptions, approachOptions);
+
 const link = await tp.system.prompt("Enter Platform Link (LeetCode/GFG URL)") || "";
-const approach = await tp.system.prompt("Enter Approach (Binary Search / Two Pointer / etc.)") || "";
-let level = await tp.system.prompt("Enter Level (EASY / MODERATE / HARD)") || "EASY";
-let status = await tp.system.prompt("Enter Status (Done / Pending)") || "Pending";
+const prerequisite = await tp.system.prompt("Enter Pre-requisite link (optional)") || "";
+const video = await tp.system.prompt("Enter Video Solution link (optional)") || "";
 
-level = level.trim().toUpperCase();
-status = status.trim();
-
+// ✅ Move/rename into problems folder
 await tp.file.move(`dsa-abhyaas/DSA/problems/${filename}`);
-
-// ✅ wait so content gets saved properly, then update master list
-await tp.system.sleep(2000);
 -%>
 ---
 problem: <% title %>
@@ -25,6 +44,8 @@ link: <% link %>
 status: <% status %>
 approach: <% approach %>
 level: <% level %>
+prerequisite: <% prerequisite %>
+video: <% video %>
 ---
 
 # Solution

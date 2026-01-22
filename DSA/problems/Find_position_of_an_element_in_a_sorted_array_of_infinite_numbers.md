@@ -2,7 +2,7 @@
 problem: Find position of an element in a sorted array of infinite numbers
 link: https://www.geeksforgeeks.org/dsa/find-position-element-sorted-array-infinite-numbers/
 status: Done
-approach: BINARY SEARCH
+approach: Binary Search
 level: MODERATE
 ---
 
