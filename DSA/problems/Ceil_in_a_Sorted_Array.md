@@ -1,9 +1,9 @@
 ---
-problem: 
-link: 
-status: Pending
-approach: 
-level: 
+problem: Ceil in a Sorted Array
+link: https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1
+status: Done
+approach:
+level:
 ---
 
 # Solution
