@@ -6,7 +6,10 @@ const filename = title
   .replace(/[^a-zA-Z0-9]+/g, "_")
   .replace(/^_+|_+$/g, "");
 
-await tp.file.rename(filename);
+const targetPath = `DSA/problems/${filename}.md`;
+
+// Move the current note to DSA/problems/ with the cleaned filename
+await tp.file.move(targetPath);
 %>
 ---
 problem: <% title %>
