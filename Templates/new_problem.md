@@ -6,7 +6,7 @@ const filename = title
   .replace(/[^a-zA-Z0-9]+/g, "_")
   .replace(/^_+|_+$/g, "");
 
-const targetPath = `DSA/problems/${filename}.md`;
+const targetPath = `dsa-abhyaasDSA/problems/${filename}.md`;
 await tp.file.move(targetPath);
 -%>
 ---
