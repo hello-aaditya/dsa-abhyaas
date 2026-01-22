@@ -1,6 +1,6 @@
 ---
 problem: Happy Number
-link: "[Happy Number](https://leetcode.com/problems/happy-number/)"
+link: https://leetcode.com/problems/happy-number/
 status: Done
 approach:
 level: EASY
