@@ -6,18 +6,25 @@ const filename = title
   .replace(/[^a-zA-Z0-9]+/g, "_")
   .replace(/^_+|_+$/g, "");
 
-// move the note into DSA/problems with underscore filename
-await tp.file.move(`dsa-abhyaas/DSA/problems/${filename}`);
+const link = await tp.system.prompt("Enter Platform Link (LeetCode/GFG URL)") || "";
+const approach = await tp.system.prompt("Enter Approach (Binary Search / Two Pointer / etc.)") || "";
+let level = await tp.system.prompt("Enter Level (EASY / MODERATE / HARD)") || "EASY";
+let status = await tp.system.prompt("Enter Status (Done / Pending)") || "Pending";
 
-// ✅ run the python script to update DSA_MASTER_LIST.md
+level = level.trim().toUpperCase();
+status = status.trim();
+
+await tp.file.move(`DSA/problems/${filename}.md`);
+
+// ✅ Update master list
 await tp.user.update_dsa_master();
 -%>
 ---
 problem: <% title %>
-link:
-status: Pending
-approach:
-level:
+link: <% link %>
+status: <% status %>
+approach: <% approach %>
+level: <% level %>
 ---
 
 # Solution
