@@ -14,7 +14,7 @@ let status = await tp.system.prompt("Enter Status (Done / Pending)") || "Pending
 level = level.trim().toUpperCase();
 status = status.trim();
 
-await tp.file.move(`DSA/problems/${filename}.md`);
+await tp.file.move(`dsa-abhyaas/DSA/problems/${filename}`);
 
 // ✅ Update master list
 await tp.user.update_dsa_master();
