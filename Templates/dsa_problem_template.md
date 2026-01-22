@@ -1,9 +1,9 @@
 ---
-problem: 
-link: 
-status: Pending
-approach: 
-level: 
+problem:
+link:
+status: Done
+approach:
+level: EASY
 ---
 
 # Solution
