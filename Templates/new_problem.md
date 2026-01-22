@@ -9,8 +9,8 @@ const filename = title
 const targetPath = `DSA/problems/${filename}.md`;
 await tp.file.move(targetPath);
 
-// run script
-await tp.system.exec("python /home/mcclusky/dsa-abhyaas/dsa-abhyaas/DSA_SCRIPTS/generate_master.py");
+// ✅ Run your python script via user function
+await tp.user.update_dsa_master();
 -%>
 ---
 problem: <% title %>
@@ -23,4 +23,3 @@ level:
 # Solution
 ```java
 
-arh
