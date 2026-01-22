@@ -3,7 +3,7 @@ import re
 
 # ---------------- CONFIG ----------------
 BASE_DIR = "/home/mcclusky/dsa-abhyaas/dsa-abhyaas"
-PROBLEMS_DIR = BASE_DIR + "/DSA/Problems"
+PROBLEMS_DIR = BASE_DIR + "/DSA/problems"
 MASTER_FILE = BASE_DIR + "/DSA/DSA_MASTER_LIST.md"
 # ----------------------------------------
 
