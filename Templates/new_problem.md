@@ -7,10 +7,8 @@ const filename = title
   .replace(/^_+|_+$/g, "");
 
 const targetPath = `DSA/problems/${filename}.md`;
-
-// Move the current note to DSA/problems/ with the cleaned filename
 await tp.file.move(targetPath);
-%>
+-%>
 ---
 problem: <% title %>
 link: 
