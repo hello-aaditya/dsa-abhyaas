@@ -3,18 +3,19 @@
 ## Table 1: Quick View
 | S No. | Problem Name | Platform Link | Status |
 | --- | --- | --- | --- |
-| 1 | Ceil in a Sorted Array | [Open](https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1) | Done |
-| 2 | Container With Most Water | [Open](https://leetcode.com/problems/container-with-most-water/description/?source=submission-ac) | DONE |
-| 3 | Find First and Last Position of Element in Sorted Array | [Open](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Done |
-| 4 | Find in Mountain Array | [Open](https://leetcode.com/problems/find-in-mountain-array/) | Done |
-| 5 | Find Minimum in Rotated Sorted Array | [Open](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Done |
-| 6 | Find position of an element in a sorted array of infinite numbers | [Open](https://www.geeksforgeeks.org/dsa/find-position-element-sorted-array-infinite-numbers/) | Done |
-| 7 | Find Smallest Letter Greater Than Target | [Open](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Done |
-| 8 | Floor in a Sorted Array | [Open](https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1) | Done |
-| 9 | Happy Number | [Open](https://leetcode.com/problems/happy-number/) | Done |
-| 10 | Peak Index in a Mountain Array | [Open](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | Done |
-| 11 | Search in Rotated Sorted Array | [Open](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Done |
-| 12 | Two Sum II - Input Array Is Sorted | [Open](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Done |
+| 1 | 283. Move Zeroes | [Open](https://leetcode.com/problems/move-zeroes/description/) | DONE |
+| 2 | Ceil in a Sorted Array | [Open](https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1) | Done |
+| 3 | Container With Most Water | [Open](https://leetcode.com/problems/container-with-most-water/description/?source=submission-ac) | DONE |
+| 4 | Find First and Last Position of Element in Sorted Array | [Open](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Done |
+| 5 | Find in Mountain Array | [Open](https://leetcode.com/problems/find-in-mountain-array/) | Done |
+| 6 | Find Minimum in Rotated Sorted Array | [Open](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Done |
+| 7 | Find position of an element in a sorted array of infinite numbers | [Open](https://www.geeksforgeeks.org/dsa/find-position-element-sorted-array-infinite-numbers/) | Done |
+| 8 | Find Smallest Letter Greater Than Target | [Open](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Done |
+| 9 | Floor in a Sorted Array | [Open](https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1) | Done |
+| 10 | Happy Number | [Open](https://leetcode.com/problems/happy-number/) | Done |
+| 11 | Peak Index in a Mountain Array | [Open](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | Done |
+| 12 | Search in Rotated Sorted Array | [Open](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Done |
+| 13 | Two Sum II - Input Array Is Sorted | [Open](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Done |
 
 ---
 
@@ -31,5 +32,6 @@
 | 8 | Floor in a Sorted Array | [Open](https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1) | Binary Search | EASY | - | - | [View](./problems/Floor-in-a-Sorted-Array.md) |
 | 9 | Peak Index in a Mountain Array | [Open](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | Binary Search | EASY | - | - | [View](./problems/Peak_Index_in_a_Mountain_Array.md) |
 | 10 | Search in Rotated Sorted Array | [Open](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Binary Search | HARD | [Open](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Watch](https://www.youtube.com/watch?v=U1VsdRgVevY) | [View](./problems/Search_in_Rotated_Sorted_Array.md) |
-| 11 | Container With Most Water | [Open](https://leetcode.com/problems/container-with-most-water/description/?source=submission-ac) | Two Pointer | MODERATE | - | [Watch](https://www.youtube.com/watch?v=KVU4JNNJkVg) | [View](./problems/Container_With_Most_Water.md) |
-| 12 | Two Sum II - Input Array Is Sorted | [Open](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Two Pointer | EASY | - | - | [View](./problems/Two_Sum_II.md) |
+| 11 | 283. Move Zeroes | [Open](https://leetcode.com/problems/move-zeroes/description/) | Two Pointer | EASY | - | [Watch](https://www.youtube.com/watch?v=k5lIW5XxC7g) | [View](./problems/283_Move_Zeroes.md) |
+| 12 | Container With Most Water | [Open](https://leetcode.com/problems/container-with-most-water/description/?source=submission-ac) | Two Pointer | MODERATE | - | [Watch](https://www.youtube.com/watch?v=KVU4JNNJkVg) | [View](./problems/Container_With_Most_Water.md) |
+| 13 | Two Sum II - Input Array Is Sorted | [Open](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Two Pointer | EASY | - | - | [View](./problems/Two_Sum_II.md) |
