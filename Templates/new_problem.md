@@ -1,6 +1,11 @@
 <%*
 const title = await tp.system.prompt("Enter Problem Name");
-const filename = title.replace(/[^a-zA-Z0-9]+/g, "_").replace(/^_+|_+$/g, "");
+if (!title) return;
+
+const filename = title
+  .replace(/[^a-zA-Z0-9]+/g, "_")
+  .replace(/^_+|_+$/g, "");
+
 await tp.file.rename(filename);
 %>
 ---
@@ -13,4 +18,4 @@ level:
 
 # Solution
 ```java
-```
+
