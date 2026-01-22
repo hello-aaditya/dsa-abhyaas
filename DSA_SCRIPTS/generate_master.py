@@ -98,13 +98,13 @@ def main():
     for i, p in enumerate(data, start=1):
         quick_rows.append([
             i,
-            p["problem"],
-            md_link("Open", p["link"]),
+            p["problem"],  # NOT clickable
+            md_link("Open", p["link"]),  # platform link
             p["status"]
         ])
 
     quick_table = build_markdown_table(
-        ["S No.", "Problem", "Link", "Status"],
+        ["S No.", "Problem Name", "Platform Link", "Status"],
         quick_rows
     )
 
@@ -116,14 +116,15 @@ def main():
     for i, p in enumerate(data2, start=1):
         detail_rows.append([
             i,
+            p["problem"],                 # NOT clickable
+            md_link("Open", p["link"]),   # platform link
             p["approach"],
-            p["problem"],
-            md_link("Open", p["link"]),
-            p["status"]
+            p["level"],
+            p["solution"]                 # clickable obsidian note link
         ])
 
     detail_table = build_markdown_table(
-        ["S No.", "Approach", "Problem", "Link", "Status"],
+        ["S No.", "Problem Name", "Platform Link", "Approach", "Level", "Solution"],
         detail_rows
     )
 
