@@ -1,9 +1,9 @@
 ---
 problem: Find Smallest Letter Greater Than Target
-link:
-status: Pending
-approach:
-level:
+link: https://leetcode.com/problems/find-smallest-letter-greater-than-target/
+status: Done
+approach: BINARY SEARCH
+level: EASY
 ---
 
 # Solution
