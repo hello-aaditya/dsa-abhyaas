@@ -74,6 +74,8 @@ def main():
         link = fm.get("link", "").strip()
         status = fm.get("status", "").strip()
         approach = fm.get("approach", "").strip()
+        level = fm.get("level", "").strip()
+
 
         # keep only valid notes
         if not problem or not link:
@@ -84,6 +86,8 @@ def main():
             "link": link,
             "status": status if status else "Pending",
             "approach": approach if approach else "-",
+            "level": level if level else "-",
+            "solution": solution_link
         })
 
     # Sort by problem name (stable + clean)
