@@ -1,9 +1,9 @@
 ---
 problem: Happy Number
 link: "[Happy Number](https://leetcode.com/problems/happy-number/)"
-status: Pending
+status: Done
 approach:
-level:
+level: EASY
 ---
 
 # Solution
