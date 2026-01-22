@@ -6,22 +6,20 @@ const filename = title
   .replace(/[^a-zA-Z0-9]+/g, "_")
   .replace(/^_+|_+$/g, "");
 
-const link = await tp.system.prompt("Enter Platform Link (LeetCode/GFG URL)");
-const approach = await tp.system.prompt("Enter Approach (Binary Search / Two Pointer / Kadane / etc.)");
-let level = await tp.system.prompt("Enter Level (EASY / MODERATE / HARD)");
-let status = await tp.system.prompt("Enter Status (Done / Pending)");
+const link = await tp.system.prompt("Enter Platform Link (LeetCode/GFG URL)") || "";
+const approach = await tp.system.prompt("Enter Approach (Binary Search / Two Pointer / etc.)") || "";
 
-level = (level || "").trim().toUpperCase();
-status = (status || "Pending").trim();
+let level = await tp.system.prompt("Enter Level (EASY / MODERATE / HARD)") || "EASY";
+level = level.trim().toUpperCase();
 
-if (!level) level = "EASY";
-if (!status) status = "Pending";
+let status = await tp.system.prompt("Enter Status (Done / Pending)") || "Pending";
+status = status.trim();
 
-const targetPath = `dsa-abhyaas/DSA/problems/${filename}`;
+const targetPath = `DSA/problems/${filename}.md`;
 await tp.file.move(targetPath);
 
-// ✅ Auto-run your master list generator (Linux)
-await tp.system.exec(`python /home/mcclusky/dsa-abhyaas/dsa-abhyaas/DSA_SCRIPTS/generate_master.py`);
+// ✅ Auto-update master list
+await tp.system.exec("python /home/mcclusky/dsa-abhyaas/dsa-abhyaas/DSA_SCRIPTS/generate_master.py");
 -%>
 ---
 problem: <% title %>
