@@ -17,7 +17,7 @@ status = (status || "Pending").trim();
 if (!level) level = "EASY";
 if (!status) status = "Pending";
 
-const targetPath = `DSA/problems/${filename}.md`;
+const targetPath = `dsa-abhyaas/DSA/problems/${filename}`;
 await tp.file.move(targetPath);
 -%>
 ---
