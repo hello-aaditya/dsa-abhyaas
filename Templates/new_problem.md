@@ -19,6 +19,9 @@ if (!status) status = "Pending";
 
 const targetPath = `dsa-abhyaas/DSA/problems/${filename}`;
 await tp.file.move(targetPath);
+
+// ✅ Auto-run your master list generator (Linux)
+await tp.system.exec(`python /home/mcclusky/dsa-abhyaas/dsa-abhyaas/DSA_SCRIPTS/generate_master.py`);
 -%>
 ---
 problem: <% title %>
