@@ -3,11 +3,7 @@ import re
 
 # ---------------- CONFIG ----------------
 BASE_DIR = "/home/mcclusky/dsa-abhyaas/dsa-abhyaas"
-
-# your problems folder name is "problems" (lowercase)
 PROBLEMS_DIR = BASE_DIR + "/DSA/problems"
-
-# master list file
 MASTER_FILE = BASE_DIR + "/DSA/DSA_MASTER_LIST.md"
 # ----------------------------------------
 
@@ -56,6 +52,18 @@ def build_markdown_table(headers, rows):
     return "\n".join(table)
 
 
+def get_primary_approach(approach_text: str) -> str:
+    """
+    For sorting:
+    - "Binary Search, Two Pointer" -> "Binary Search"
+    - "Two Pointer" -> "Two Pointer"
+    """
+    if not approach_text:
+        return "-"
+    parts = [p.strip() for p in approach_text.split(",") if p.strip()]
+    return parts[0] if parts else "-"
+
+
 def main():
     if not os.path.isdir(PROBLEMS_DIR):
         raise SystemExit(f"❌ Problems folder not found: {PROBLEMS_DIR}")
@@ -94,15 +102,19 @@ def main():
         prereq_link = md_link("Open", prereq) if prereq else "-"
         video_link = md_link("Watch", video) if video else "-"
 
+        approach_text = approach if approach else "-"
+        primary_approach = get_primary_approach(approach_text)
+
         data.append({
             "problem": problem,
             "link": link,
             "status": status if status else "PENDING",
-            "approach": approach if approach else "-",
+            "approach": approach_text,
+            "primary_approach": primary_approach,   # used only for sorting
             "level": level if level else "-",
-            "solution": solution_link,
             "prerequisite": prereq_link,
             "video": video_link,
+            "solution": solution_link,
         })
 
     # ---------------- TABLE 1: Quick View ----------------
@@ -124,8 +136,8 @@ def main():
     )
 
     # ---------------- TABLE 2: Detailed View ----------------
-    # Sort by approach then problem name
-    data2 = sorted(data, key=lambda x: (x["approach"].lower(), x["problem"].lower()))
+    # Sort by FIRST approach only (clean ordering), then problem name
+    data2 = sorted(data, key=lambda x: (x["primary_approach"].lower(), x["problem"].lower()))
 
     detail_rows = []
     for i, p in enumerate(data2, start=1):
@@ -133,7 +145,7 @@ def main():
             i,
             p["problem"],                 # NOT clickable
             md_link("Open", p["link"]),   # platform link
-            p["approach"],
+            p["approach"],                # full approach text (supports multi)
             p["level"],
             p["prerequisite"],
             p["video"],
