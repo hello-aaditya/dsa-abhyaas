@@ -4,20 +4,21 @@
 | S No. | Problem Name | Platform Link | Status |
 | --- | --- | --- | --- |
 | 1 | 283. Move Zeroes | [Open](https://leetcode.com/problems/move-zeroes/description/) | DONE |
-| 2 | 81. Search in Rotated Sorted Array II | [Open](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/) | DONE |
-| 3 | Ceil in a Sorted Array | [Open](https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1) | Done |
-| 4 | Container With Most Water | [Open](https://leetcode.com/problems/container-with-most-water/description/?source=submission-ac) | DONE |
-| 5 | Find First and Last Position of Element in Sorted Array | [Open](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Done |
-| 6 | Find in Mountain Array | [Open](https://leetcode.com/problems/find-in-mountain-array/) | Done |
-| 7 | Find Kth Rotation | [Open](https://www.geeksforgeeks.org/problems/rotation4723/1) | DONE |
-| 8 | Find Minimum in Rotated Sorted Array | [Open](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Done |
-| 9 | Find position of an element in a sorted array of infinite numbers | [Open](https://www.geeksforgeeks.org/dsa/find-position-element-sorted-array-infinite-numbers/) | Done |
-| 10 | Find Smallest Letter Greater Than Target | [Open](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Done |
-| 11 | Floor in a Sorted Array | [Open](https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1) | Done |
-| 12 | Happy Number | [Open](https://leetcode.com/problems/happy-number/) | Done |
-| 13 | Peak Index in a Mountain Array | [Open](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | Done |
-| 14 | Search in Rotated Sorted Array | [Open](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Done |
-| 15 | Two Sum II - Input Array Is Sorted | [Open](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Done |
+| 2 | 74. Search a 2D Matrix | [Open](https://leetcode.com/problems/search-a-2d-matrix/description/) | DONE |
+| 3 | 81. Search in Rotated Sorted Array II | [Open](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/) | DONE |
+| 4 | Ceil in a Sorted Array | [Open](https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1) | Done |
+| 5 | Container With Most Water | [Open](https://leetcode.com/problems/container-with-most-water/description/?source=submission-ac) | DONE |
+| 6 | Find First and Last Position of Element in Sorted Array | [Open](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Done |
+| 7 | Find in Mountain Array | [Open](https://leetcode.com/problems/find-in-mountain-array/) | Done |
+| 8 | Find Kth Rotation | [Open](https://www.geeksforgeeks.org/problems/rotation4723/1) | DONE |
+| 9 | Find Minimum in Rotated Sorted Array | [Open](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Done |
+| 10 | Find position of an element in a sorted array of infinite numbers | [Open](https://www.geeksforgeeks.org/dsa/find-position-element-sorted-array-infinite-numbers/) | Done |
+| 11 | Find Smallest Letter Greater Than Target | [Open](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Done |
+| 12 | Floor in a Sorted Array | [Open](https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1) | Done |
+| 13 | Happy Number | [Open](https://leetcode.com/problems/happy-number/) | Done |
+| 14 | Peak Index in a Mountain Array | [Open](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | Done |
+| 15 | Search in Rotated Sorted Array | [Open](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Done |
+| 16 | Two Sum II - Input Array Is Sorted | [Open](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Done |
 
 ---
 
@@ -25,17 +26,18 @@
 | S No. | Problem Name | Platform Link | Approach | Level | Pre-requisite | Video Solution | Solution |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Happy Number | [Open](https://leetcode.com/problems/happy-number/) | - | EASY | - | - | [View](./problems/Happy_Number.md) |
-| 2 | 81. Search in Rotated Sorted Array II | [Open](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/) | Binary Search | MODERATE | [Open](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) | [Watch](https://www.youtube.com/watch?v=eneo_XPUEj0) | [View](./problems/81_Search_in_Rotated_Sorted_Array_II.md) |
-| 3 | Ceil in a Sorted Array | [Open](https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1) | Binary Search | EASY | - | - | [View](./problems/Ceil_in_a_Sorted_Array.md) |
-| 4 | Find First and Last Position of Element in Sorted Array | [Open](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Binary Search | MODERATE | - | - | [View](./problems/Find_First_and_Last_Position_of_Element_in_Sorted_Array.md) |
-| 5 | Find in Mountain Array | [Open](https://leetcode.com/problems/find-in-mountain-array/) | Binary Search | HARD | - | - | [View](./problems/Find_in_Mountain_Array.md) |
-| 6 | Find Kth Rotation | [Open](https://www.geeksforgeeks.org/problems/rotation4723/1) | Binary Search | EASY | [Open](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) | - | [View](./problems/Find_Kth_Rotation.md) |
-| 7 | Find Minimum in Rotated Sorted Array | [Open](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Binary Search | MODERATE | - | [Watch](https://www.youtube.com/watch?v=Jin6vO0MdzY) | [View](./problems/Find_Minimum_in_Rotated_Sorted_Array.md) |
-| 8 | Find position of an element in a sorted array of infinite numbers | [Open](https://www.geeksforgeeks.org/dsa/find-position-element-sorted-array-infinite-numbers/) | Binary Search | MODERATE | - | - | [View](./problems/Find_position_of_an_element_in_a_sorted_array_of_infinite_numbers.md) |
-| 9 | Find Smallest Letter Greater Than Target | [Open](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Binary Search | EASY | - | - | [View](./problems/Find_Smallest_Letter_Greater_Than_Target.md) |
-| 10 | Floor in a Sorted Array | [Open](https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1) | Binary Search | EASY | - | - | [View](./problems/Floor-in-a-Sorted-Array.md) |
-| 11 | Peak Index in a Mountain Array | [Open](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | Binary Search | EASY | - | - | [View](./problems/Peak_Index_in_a_Mountain_Array.md) |
-| 12 | Search in Rotated Sorted Array | [Open](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Binary Search | HARD | [Open](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Watch](https://www.youtube.com/watch?v=U1VsdRgVevY) | [View](./problems/Search_in_Rotated_Sorted_Array.md) |
-| 13 | 283. Move Zeroes | [Open](https://leetcode.com/problems/move-zeroes/description/) | Two Pointer | EASY | - | [Watch](https://www.youtube.com/watch?v=k5lIW5XxC7g) | [View](./problems/283_Move_Zeroes.md) |
-| 14 | Container With Most Water | [Open](https://leetcode.com/problems/container-with-most-water/description/?source=submission-ac) | Two Pointer | MODERATE | - | [Watch](https://www.youtube.com/watch?v=KVU4JNNJkVg) | [View](./problems/Container_With_Most_Water.md) |
-| 15 | Two Sum II - Input Array Is Sorted | [Open](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Two Pointer | EASY | - | - | [View](./problems/Two_Sum_II.md) |
+| 2 | 74. Search a 2D Matrix | [Open](https://leetcode.com/problems/search-a-2d-matrix/description/) | Binary Search | MODERATE | - | - | [View](./problems/74_Search_a_2D_Matrix.md) |
+| 3 | 81. Search in Rotated Sorted Array II | [Open](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/) | Binary Search | MODERATE | [Open](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) | [Watch](https://www.youtube.com/watch?v=eneo_XPUEj0) | [View](./problems/81_Search_in_Rotated_Sorted_Array_II.md) |
+| 4 | Ceil in a Sorted Array | [Open](https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1) | Binary Search | EASY | - | - | [View](./problems/Ceil_in_a_Sorted_Array.md) |
+| 5 | Find First and Last Position of Element in Sorted Array | [Open](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Binary Search | MODERATE | - | - | [View](./problems/Find_First_and_Last_Position_of_Element_in_Sorted_Array.md) |
+| 6 | Find in Mountain Array | [Open](https://leetcode.com/problems/find-in-mountain-array/) | Binary Search | HARD | - | - | [View](./problems/Find_in_Mountain_Array.md) |
+| 7 | Find Kth Rotation | [Open](https://www.geeksforgeeks.org/problems/rotation4723/1) | Binary Search | EASY | [Open](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) | - | [View](./problems/Find_Kth_Rotation.md) |
+| 8 | Find Minimum in Rotated Sorted Array | [Open](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Binary Search | MODERATE | - | [Watch](https://www.youtube.com/watch?v=Jin6vO0MdzY) | [View](./problems/Find_Minimum_in_Rotated_Sorted_Array.md) |
+| 9 | Find position of an element in a sorted array of infinite numbers | [Open](https://www.geeksforgeeks.org/dsa/find-position-element-sorted-array-infinite-numbers/) | Binary Search | MODERATE | - | - | [View](./problems/Find_position_of_an_element_in_a_sorted_array_of_infinite_numbers.md) |
+| 10 | Find Smallest Letter Greater Than Target | [Open](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Binary Search | EASY | - | - | [View](./problems/Find_Smallest_Letter_Greater_Than_Target.md) |
+| 11 | Floor in a Sorted Array | [Open](https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1) | Binary Search | EASY | - | - | [View](./problems/Floor-in-a-Sorted-Array.md) |
+| 12 | Peak Index in a Mountain Array | [Open](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | Binary Search | EASY | - | - | [View](./problems/Peak_Index_in_a_Mountain_Array.md) |
+| 13 | Search in Rotated Sorted Array | [Open](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Binary Search | HARD | [Open](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Watch](https://www.youtube.com/watch?v=U1VsdRgVevY) | [View](./problems/Search_in_Rotated_Sorted_Array.md) |
+| 14 | 283. Move Zeroes | [Open](https://leetcode.com/problems/move-zeroes/description/) | Two Pointer | EASY | - | [Watch](https://www.youtube.com/watch?v=k5lIW5XxC7g) | [View](./problems/283_Move_Zeroes.md) |
+| 15 | Container With Most Water | [Open](https://leetcode.com/problems/container-with-most-water/description/?source=submission-ac) | Two Pointer | MODERATE | - | [Watch](https://www.youtube.com/watch?v=KVU4JNNJkVg) | [View](./problems/Container_With_Most_Water.md) |
+| 16 | Two Sum II - Input Array Is Sorted | [Open](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Two Pointer | EASY | - | - | [View](./problems/Two_Sum_II.md) |
