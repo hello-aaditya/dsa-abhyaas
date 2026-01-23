@@ -29,7 +29,14 @@ const approachOptions = [
 
 const status = await tp.system.suggester(statusOptions, statusOptions);
 const level = await tp.system.suggester(levelOptions, levelOptions);
-const approach = await tp.system.suggester(approachOptions, approachOptions);
+
+// ✅ Multi-approach support
+const primaryApproach = await tp.system.suggester(approachOptions, approachOptions);
+const extraApproach = await tp.system.prompt("Extra Approach (optional, comma separated)") || "";
+
+const approach = extraApproach.trim()
+  ? `${primaryApproach}, ${extraApproach.trim()}`
+  : primaryApproach;
 
 const link = await tp.system.prompt("Enter Platform Link (LeetCode/GFG URL)") || "";
 const prerequisite = await tp.system.prompt("Enter Pre-requisite link (optional)") || "";
