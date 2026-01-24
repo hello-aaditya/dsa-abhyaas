@@ -36,3 +36,6 @@ class Solution {
     }
 }
 ```
+![74_Search_a_2D_Matrix_pic1](./images/74_Search_a_2D_Matrix_pic1.jpg)
+
+![74_Search_a_2D_Matrix_pic2](./images/74_Search_a_2D_Matrix_pic2.jpg)
