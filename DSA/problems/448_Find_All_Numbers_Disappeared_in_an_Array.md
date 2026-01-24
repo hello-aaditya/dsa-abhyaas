@@ -5,7 +5,7 @@ status: DONE
 approach: Cyclic Sort
 level: MODERATE
 prerequisite: https://leetcode.com/problems/missing-number/
-video: 
+video: https://www.youtube.com/watch?v=JfinxytTYFQ&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=20
 ---
 
 # Solution

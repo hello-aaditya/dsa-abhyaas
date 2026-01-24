@@ -4,8 +4,8 @@ link: https://leetcode.com/problems/missing-number/description/
 status: DONE
 approach: Cyclic Sort
 level: MODERATE
-prerequisite: 
-video: 
+prerequisite:
+video: https://www.youtube.com/watch?v=JfinxytTYFQ&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=20
 ---
 
 # Solution
