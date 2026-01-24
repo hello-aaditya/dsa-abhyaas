@@ -11,6 +11,7 @@ const statusOptions = ["PENDING", "DONE"];
 const levelOptions = ["EASY", "MODERATE", "HARD"];
 const approachOptions = [
   "Binary Search",
+  "Cyclic Sort",
   "Two Pointer",
   "Sliding Window",
   "Kadane's Algorithm",
