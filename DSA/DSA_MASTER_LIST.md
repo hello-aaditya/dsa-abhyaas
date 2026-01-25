@@ -19,11 +19,13 @@
 | 14 | Find Minimum in Rotated Sorted Array | [Open](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Done |
 | 15 | Find position of an element in a sorted array of infinite numbers | [Open](https://www.geeksforgeeks.org/dsa/find-position-element-sorted-array-infinite-numbers/) | Done |
 | 16 | Find Smallest Letter Greater Than Target | [Open](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Done |
-| 17 | Floor in a Sorted Array | [Open](https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1) | Done |
-| 18 | Happy Number | [Open](https://leetcode.com/problems/happy-number/) | Done |
-| 19 | Peak Index in a Mountain Array | [Open](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | Done |
-| 20 | Search in Rotated Sorted Array | [Open](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Done |
-| 21 | Two Sum II - Input Array Is Sorted | [Open](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Done |
+| 17 | First negative in every window of size k | [Open](https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1) | DONE |
+| 18 | Floor in a Sorted Array | [Open](https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1) | Done |
+| 19 | Happy Number | [Open](https://leetcode.com/problems/happy-number/) | Done |
+| 20 | Max Sum Subarray of size K | [Open](https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1) | DONE |
+| 21 | Peak Index in a Mountain Array | [Open](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | Done |
+| 22 | Search in Rotated Sorted Array | [Open](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Done |
+| 23 | Two Sum II - Input Array Is Sorted | [Open](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Done |
 
 ---
 
@@ -48,6 +50,8 @@
 | 16 | 442. Find All Duplicates in an Array | [Open](https://leetcode.com/problems/find-all-duplicates-in-an-array/description/) | Cyclic Sort | MODERATE | [Open](https://leetcode.com/problems/missing-number/) | [Watch](https://www.youtube.com/watch?v=JfinxytTYFQ&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=20) | [View](./problems/442_Find_All_Duplicates_in_an_Array.md) |
 | 17 | 448. Find All Numbers Disappeared in an Array | [Open](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/) | Cyclic Sort | MODERATE | [Open](https://leetcode.com/problems/missing-number/) | [Watch](https://www.youtube.com/watch?v=JfinxytTYFQ&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=20) | [View](./problems/448_Find_All_Numbers_Disappeared_in_an_Array.md) |
 | 18 | 645. Set Mismatch | [Open](https://leetcode.com/problems/set-mismatch/description/) | Cyclic Sort | MODERATE | [Open](https://leetcode.com/problems/missing-number/) | [Watch](https://www.youtube.com/watch?v=JfinxytTYFQ&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=20) | [View](./problems/645_Set_Mismatch.md) |
-| 19 | 283. Move Zeroes | [Open](https://leetcode.com/problems/move-zeroes/description/) | Two Pointer | EASY | - | [Watch](https://www.youtube.com/watch?v=k5lIW5XxC7g) | [View](./problems/283_Move_Zeroes.md) |
-| 20 | Container With Most Water | [Open](https://leetcode.com/problems/container-with-most-water/description/?source=submission-ac) | Two Pointer | MODERATE | - | [Watch](https://www.youtube.com/watch?v=KVU4JNNJkVg) | [View](./problems/Container_With_Most_Water.md) |
-| 21 | Two Sum II - Input Array Is Sorted | [Open](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Two Pointer | EASY | - | - | [View](./problems/Two_Sum_II.md) |
+| 19 | First negative in every window of size k | [Open](https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1) | Sliding Window | MODERATE | [Open](https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1) | [Watch](https://www.youtube.com/watch?v=uUXXEgK2Jh8&list=PL_z_8CaSLPWeM8BDJmIYDaoQ5zuwyxnfj&index=4) | [View](./problems/First_negative_in_every_window_of_size_k.md) |
+| 20 | Max Sum Subarray of size K | [Open](https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1) | Sliding Window | EASY | - | [Watch](https://youtu.be/KtpqeN0Goro?list=PL_z_8CaSLPWeM8BDJmIYDaoQ5zuwyxnfj) | [View](./problems/Max_Sum_Subarray_of_size_K.md) |
+| 21 | 283. Move Zeroes | [Open](https://leetcode.com/problems/move-zeroes/description/) | Two Pointer | EASY | - | [Watch](https://www.youtube.com/watch?v=k5lIW5XxC7g) | [View](./problems/283_Move_Zeroes.md) |
+| 22 | Container With Most Water | [Open](https://leetcode.com/problems/container-with-most-water/description/?source=submission-ac) | Two Pointer | MODERATE | - | [Watch](https://www.youtube.com/watch?v=KVU4JNNJkVg) | [View](./problems/Container_With_Most_Water.md) |
+| 23 | Two Sum II - Input Array Is Sorted | [Open](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Two Pointer | EASY | - | - | [View](./problems/Two_Sum_II.md) |
