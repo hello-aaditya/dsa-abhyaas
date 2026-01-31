@@ -5,35 +5,36 @@
 | --- | --- | --- | --- |
 | 1 | 1004. Max Consecutive Ones III | [Open](https://leetcode.com/problems/max-consecutive-ones-iii/description/) | DONE |
 | 2 | 1493. Longest Subarray of 1's After Deleting One Element | [Open](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/) | DONE |
-| 3 | 239. Sliding Window Maximum | [Open](https://leetcode.com/problems/sliding-window-maximum/description/) | DONE |
-| 4 | 268. Missing Number | [Open](https://leetcode.com/problems/missing-number/description/) | DONE |
-| 5 | 283. Move Zeroes | [Open](https://leetcode.com/problems/move-zeroes/description/) | DONE |
-| 6 | 287. Find the Duplicate Number | [Open](https://leetcode.com/problems/find-the-duplicate-number/description/) | DONE |
-| 7 | 3. Longest Substring Without Repeating Characters | [Open](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | DONE |
-| 8 | 442. Find All Duplicates in an Array | [Open](https://leetcode.com/problems/find-all-duplicates-in-an-array/description/) | DONE |
-| 9 | 448. Find All Numbers Disappeared in an Array | [Open](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/) | DONE |
-| 10 | 643. Maximum Average Subarray I | [Open](https://leetcode.com/problems/maximum-average-subarray-i/description/) | DONE |
-| 11 | 645. Set Mismatch | [Open](https://leetcode.com/problems/set-mismatch/description/) | DONE |
-| 12 | 724. Find Pivot Index | [Open](https://leetcode.com/problems/find-pivot-index/description/) | DONE |
-| 13 | 74. Search a 2D Matrix | [Open](https://leetcode.com/problems/search-a-2d-matrix/description/) | DONE |
-| 14 | 81. Search in Rotated Sorted Array II | [Open](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/) | DONE |
-| 15 | Ceil in a Sorted Array | [Open](https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1) | Done |
-| 16 | Container With Most Water | [Open](https://leetcode.com/problems/container-with-most-water/description/?source=submission-ac) | DONE |
-| 17 | Count Occurences of Anagrams | [Open](https://www.geeksforgeeks.org/problems/count-occurences-of-anagrams5839/1) | DONE |
-| 18 | Find First and Last Position of Element in Sorted Array | [Open](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Done |
-| 19 | Find in Mountain Array | [Open](https://leetcode.com/problems/find-in-mountain-array/) | Done |
-| 20 | Find Kth Rotation | [Open](https://www.geeksforgeeks.org/problems/rotation4723/1) | DONE |
-| 21 | Find Minimum in Rotated Sorted Array | [Open](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Done |
-| 22 | Find position of an element in a sorted array of infinite numbers | [Open](https://www.geeksforgeeks.org/dsa/find-position-element-sorted-array-infinite-numbers/) | Done |
-| 23 | Find Smallest Letter Greater Than Target | [Open](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Done |
-| 24 | First negative in every window of size k | [Open](https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1) | DONE |
-| 25 | Floor in a Sorted Array | [Open](https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1) | Done |
-| 26 | Happy Number | [Open](https://leetcode.com/problems/happy-number/) | Done |
-| 27 | Longest Substring with K Uniques | [Open](https://www.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1) | DONE |
-| 28 | Max Sum Subarray of size K | [Open](https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1) | DONE |
-| 29 | Peak Index in a Mountain Array | [Open](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | Done |
-| 30 | Search in Rotated Sorted Array | [Open](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Done |
-| 31 | Two Sum II - Input Array Is Sorted | [Open](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Done |
+| 3 | 1732. Find the Highest Altitude | [Open](https://leetcode.com/problems/find-the-highest-altitude/description/) | DONE |
+| 4 | 239. Sliding Window Maximum | [Open](https://leetcode.com/problems/sliding-window-maximum/description/) | DONE |
+| 5 | 268. Missing Number | [Open](https://leetcode.com/problems/missing-number/description/) | DONE |
+| 6 | 283. Move Zeroes | [Open](https://leetcode.com/problems/move-zeroes/description/) | DONE |
+| 7 | 287. Find the Duplicate Number | [Open](https://leetcode.com/problems/find-the-duplicate-number/description/) | DONE |
+| 8 | 3. Longest Substring Without Repeating Characters | [Open](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | DONE |
+| 9 | 442. Find All Duplicates in an Array | [Open](https://leetcode.com/problems/find-all-duplicates-in-an-array/description/) | DONE |
+| 10 | 448. Find All Numbers Disappeared in an Array | [Open](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/) | DONE |
+| 11 | 643. Maximum Average Subarray I | [Open](https://leetcode.com/problems/maximum-average-subarray-i/description/) | DONE |
+| 12 | 645. Set Mismatch | [Open](https://leetcode.com/problems/set-mismatch/description/) | DONE |
+| 13 | 724. Find Pivot Index | [Open](https://leetcode.com/problems/find-pivot-index/description/) | DONE |
+| 14 | 74. Search a 2D Matrix | [Open](https://leetcode.com/problems/search-a-2d-matrix/description/) | DONE |
+| 15 | 81. Search in Rotated Sorted Array II | [Open](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/) | DONE |
+| 16 | Ceil in a Sorted Array | [Open](https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1) | Done |
+| 17 | Container With Most Water | [Open](https://leetcode.com/problems/container-with-most-water/description/?source=submission-ac) | DONE |
+| 18 | Count Occurences of Anagrams | [Open](https://www.geeksforgeeks.org/problems/count-occurences-of-anagrams5839/1) | DONE |
+| 19 | Find First and Last Position of Element in Sorted Array | [Open](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Done |
+| 20 | Find in Mountain Array | [Open](https://leetcode.com/problems/find-in-mountain-array/) | Done |
+| 21 | Find Kth Rotation | [Open](https://www.geeksforgeeks.org/problems/rotation4723/1) | DONE |
+| 22 | Find Minimum in Rotated Sorted Array | [Open](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Done |
+| 23 | Find position of an element in a sorted array of infinite numbers | [Open](https://www.geeksforgeeks.org/dsa/find-position-element-sorted-array-infinite-numbers/) | Done |
+| 24 | Find Smallest Letter Greater Than Target | [Open](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Done |
+| 25 | First negative in every window of size k | [Open](https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1) | DONE |
+| 26 | Floor in a Sorted Array | [Open](https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1) | Done |
+| 27 | Happy Number | [Open](https://leetcode.com/problems/happy-number/) | Done |
+| 28 | Longest Substring with K Uniques | [Open](https://www.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1) | DONE |
+| 29 | Max Sum Subarray of size K | [Open](https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1) | DONE |
+| 30 | Peak Index in a Mountain Array | [Open](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | Done |
+| 31 | Search in Rotated Sorted Array | [Open](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Done |
+| 32 | Two Sum II - Input Array Is Sorted | [Open](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Done |
 
 ---
 
@@ -58,16 +59,17 @@
 | 16 | 442. Find All Duplicates in an Array | [Open](https://leetcode.com/problems/find-all-duplicates-in-an-array/description/) | Cyclic Sort | MODERATE | [Open](https://leetcode.com/problems/missing-number/) | [Watch](https://www.youtube.com/watch?v=JfinxytTYFQ&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=20) | [View](./problems/442_Find_All_Duplicates_in_an_Array.md) |
 | 17 | 448. Find All Numbers Disappeared in an Array | [Open](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/) | Cyclic Sort | MODERATE | [Open](https://leetcode.com/problems/missing-number/) | [Watch](https://www.youtube.com/watch?v=JfinxytTYFQ&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=20) | [View](./problems/448_Find_All_Numbers_Disappeared_in_an_Array.md) |
 | 18 | 645. Set Mismatch | [Open](https://leetcode.com/problems/set-mismatch/description/) | Cyclic Sort | MODERATE | [Open](https://leetcode.com/problems/missing-number/) | [Watch](https://www.youtube.com/watch?v=JfinxytTYFQ&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=20) | [View](./problems/645_Set_Mismatch.md) |
-| 19 | 724. Find Pivot Index | [Open](https://leetcode.com/problems/find-pivot-index/description/) | Prefix Sum | MODERATE | - | [Watch](https://www.youtube.com/watch?v=Q0Qat25D6JE) | [View](./problems/724_Find_Pivot_Index.md) |
-| 20 | 1004. Max Consecutive Ones III | [Open](https://leetcode.com/problems/max-consecutive-ones-iii/description/) | Sliding Window | EASY | - | - | [View](./problems/1004_Max_Consecutive_Ones_III.md) |
-| 21 | 1493. Longest Subarray of 1's After Deleting One Element | [Open](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/) | Sliding Window | EASY | - | - | [View](./problems/1493_Longest_Subarray_of_1_s_After_Deleting_One_Element.md) |
-| 22 | 239. Sliding Window Maximum | [Open](https://leetcode.com/problems/sliding-window-maximum/description/) | Sliding Window | MODERATE | - | [Watch](https://www.youtube.com/watch?v=xFJXtB5vSmM&list=PL_z_8CaSLPWeM8BDJmIYDaoQ5zuwyxnfj&index=6) | [View](./problems/239_Sliding_Window_Maximum.md) |
-| 23 | 3. Longest Substring Without Repeating Characters | [Open](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | Sliding Window, Variable-Length Sliding Window | MODERATE | - | - | [View](./problems/3_Longest_Substring_Without_Repeating_Characters.md) |
-| 24 | 643. Maximum Average Subarray I | [Open](https://leetcode.com/problems/maximum-average-subarray-i/description/) | Sliding Window | EASY | - | - | [View](./problems/643_Maximum_Average_Subarray_I.md) |
-| 25 | Count Occurences of Anagrams | [Open](https://www.geeksforgeeks.org/problems/count-occurences-of-anagrams5839/1) | Sliding Window | MODERATE | - | [Watch](https://www.youtube.com/watch?v=MW4lJ8Y0xXk&list=PL_z_8CaSLPWeM8BDJmIYDaoQ5zuwyxnfj&index=5) | [View](./problems/Count_Occurences_of_Anagrams.md) |
-| 26 | First negative in every window of size k | [Open](https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1) | Sliding Window | MODERATE | [Open](https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1) | [Watch](https://www.youtube.com/watch?v=uUXXEgK2Jh8&list=PL_z_8CaSLPWeM8BDJmIYDaoQ5zuwyxnfj&index=4) | [View](./problems/First_negative_in_every_window_of_size_k.md) |
-| 27 | Longest Substring with K Uniques | [Open](https://www.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1) | Sliding Window, Variable-Length Sliding Window | MODERATE | - | [Watch](https://www.youtube.com/watch?v=Lav6St0W_pQ&list=PL_z_8CaSLPWeM8BDJmIYDaoQ5zuwyxnfj&index=10) | [View](./problems/Longest_Substring_with_K_Uniques.md) |
-| 28 | Max Sum Subarray of size K | [Open](https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1) | Sliding Window | EASY | - | [Watch](https://youtu.be/KtpqeN0Goro?list=PL_z_8CaSLPWeM8BDJmIYDaoQ5zuwyxnfj) | [View](./problems/Max_Sum_Subarray_of_size_K.md) |
-| 29 | 283. Move Zeroes | [Open](https://leetcode.com/problems/move-zeroes/description/) | Two Pointer | EASY | - | [Watch](https://www.youtube.com/watch?v=k5lIW5XxC7g) | [View](./problems/283_Move_Zeroes.md) |
-| 30 | Container With Most Water | [Open](https://leetcode.com/problems/container-with-most-water/description/?source=submission-ac) | Two Pointer | MODERATE | - | [Watch](https://www.youtube.com/watch?v=KVU4JNNJkVg) | [View](./problems/Container_With_Most_Water.md) |
-| 31 | Two Sum II - Input Array Is Sorted | [Open](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Two Pointer | EASY | - | - | [View](./problems/Two_Sum_II.md) |
+| 19 | 1732. Find the Highest Altitude | [Open](https://leetcode.com/problems/find-the-highest-altitude/description/) | Prefix Sum | EASY | - | - | [View](./problems/1732_Find_the_Highest_Altitude.md) |
+| 20 | 724. Find Pivot Index | [Open](https://leetcode.com/problems/find-pivot-index/description/) | Prefix Sum | MODERATE | - | [Watch](https://www.youtube.com/watch?v=Q0Qat25D6JE) | [View](./problems/724_Find_Pivot_Index.md) |
+| 21 | 1004. Max Consecutive Ones III | [Open](https://leetcode.com/problems/max-consecutive-ones-iii/description/) | Sliding Window | EASY | - | - | [View](./problems/1004_Max_Consecutive_Ones_III.md) |
+| 22 | 1493. Longest Subarray of 1's After Deleting One Element | [Open](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/) | Sliding Window | EASY | - | - | [View](./problems/1493_Longest_Subarray_of_1_s_After_Deleting_One_Element.md) |
+| 23 | 239. Sliding Window Maximum | [Open](https://leetcode.com/problems/sliding-window-maximum/description/) | Sliding Window | MODERATE | - | [Watch](https://www.youtube.com/watch?v=xFJXtB5vSmM&list=PL_z_8CaSLPWeM8BDJmIYDaoQ5zuwyxnfj&index=6) | [View](./problems/239_Sliding_Window_Maximum.md) |
+| 24 | 3. Longest Substring Without Repeating Characters | [Open](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | Sliding Window, Variable-Length Sliding Window | MODERATE | - | - | [View](./problems/3_Longest_Substring_Without_Repeating_Characters.md) |
+| 25 | 643. Maximum Average Subarray I | [Open](https://leetcode.com/problems/maximum-average-subarray-i/description/) | Sliding Window | EASY | - | - | [View](./problems/643_Maximum_Average_Subarray_I.md) |
+| 26 | Count Occurences of Anagrams | [Open](https://www.geeksforgeeks.org/problems/count-occurences-of-anagrams5839/1) | Sliding Window | MODERATE | - | [Watch](https://www.youtube.com/watch?v=MW4lJ8Y0xXk&list=PL_z_8CaSLPWeM8BDJmIYDaoQ5zuwyxnfj&index=5) | [View](./problems/Count_Occurences_of_Anagrams.md) |
+| 27 | First negative in every window of size k | [Open](https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1) | Sliding Window | MODERATE | [Open](https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1) | [Watch](https://www.youtube.com/watch?v=uUXXEgK2Jh8&list=PL_z_8CaSLPWeM8BDJmIYDaoQ5zuwyxnfj&index=4) | [View](./problems/First_negative_in_every_window_of_size_k.md) |
+| 28 | Longest Substring with K Uniques | [Open](https://www.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1) | Sliding Window, Variable-Length Sliding Window | MODERATE | - | [Watch](https://www.youtube.com/watch?v=Lav6St0W_pQ&list=PL_z_8CaSLPWeM8BDJmIYDaoQ5zuwyxnfj&index=10) | [View](./problems/Longest_Substring_with_K_Uniques.md) |
+| 29 | Max Sum Subarray of size K | [Open](https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1) | Sliding Window | EASY | - | [Watch](https://youtu.be/KtpqeN0Goro?list=PL_z_8CaSLPWeM8BDJmIYDaoQ5zuwyxnfj) | [View](./problems/Max_Sum_Subarray_of_size_K.md) |
+| 30 | 283. Move Zeroes | [Open](https://leetcode.com/problems/move-zeroes/description/) | Two Pointer | EASY | - | [Watch](https://www.youtube.com/watch?v=k5lIW5XxC7g) | [View](./problems/283_Move_Zeroes.md) |
+| 31 | Container With Most Water | [Open](https://leetcode.com/problems/container-with-most-water/description/?source=submission-ac) | Two Pointer | MODERATE | - | [Watch](https://www.youtube.com/watch?v=KVU4JNNJkVg) | [View](./problems/Container_With_Most_Water.md) |
+| 32 | Two Sum II - Input Array Is Sorted | [Open](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Two Pointer | EASY | - | - | [View](./problems/Two_Sum_II.md) |
