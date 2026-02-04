@@ -25,7 +25,8 @@ const approachOptions = [
   "Graph",
   "Tree",
   "Stack",
-  "Queue"
+  "Queue",
+  "Linked List"
 ];
 
 const status = await tp.system.suggester(statusOptions, statusOptions);
