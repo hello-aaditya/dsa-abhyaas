@@ -12,25 +12,39 @@ video:
 ```java
 class Solution {
     public int longestSubarray(int[] nums) {
-        int size = nums.length;
+        int size = nums.length; // SIZE OF nums
         int start = 0;
-        int longestSubarray = 0;
-        int notOne = 0;
+        int end = 0;
 
-        for (int end = 0; end<size; end++) {
+        int zeroCount = 0;      // KEEPS THE COUNT OF ZERO IN CURRENT WINDOW
+        int maxOne = 0;         // STORE THE MAXIMUM ONE IN THE GIVEN ARRAY-> nums
+
+        while (end < size) {
+            // ---------------- EXPAND ---------------- 
+            // INCLUDE nums[end] INTO THE WINDOW
             if (nums[end] == 0) {
-                notOne++;
+                zeroCount++;
             }
-            while (notOne > 1) {
+
+            // ---------------- SHRINK ---------------- 
+            // IF MORE THAN ONE ZERO EXISTS -> CONDITION VIOLATED -> WINDOW BECOMES INVALID
+            while (zeroCount > 1) {
+
+                // REMOVE nums[start] FROM WINDOW
                 if (nums[start] == 0) {
-                    notOne--;
+                    zeroCount--;
                 }
-                start++;
+                start++; // MOVE STARTING POINTER
             }
+
+            // ---------------- UPDATE ANSWER ---------------- 
+            // NOTE: WE MUST DELETE ONE ELEMENT, SO windowSize = end - start ->
             int windowSize = end - start;
-            longestSubarray = Math.max(longestSubarray, windowSize);
+            maxOne = Math.max(maxOne, windowSize); // UPDATE maxOne AFTER DELETING ONE INDEX
+            // MOVE ENDING POINTER
+            end++;
         }
-        return longestSubarray;
+        return maxOne;
     }
 }
 ```
