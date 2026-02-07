@@ -5,7 +5,7 @@ status: DONE
 approach: Sliding Window
 level: EASY
 prerequisite:
-video:
+video: https://www.youtube.com/watch?v=SQ8tY9nxeZU&t=1461s
 ---
 
 # Solution
