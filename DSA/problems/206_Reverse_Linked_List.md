@@ -4,8 +4,8 @@ link: https://leetcode.com/problems/reverse-linked-list/description/
 status: DONE
 approach: Linked List
 level: MODERATE
-prerequisite: 
-video: https://www.geeksforgeeks.org/dsa/reverse-a-linked-list/
+prerequisite:
+video: https://youtu.be/t7YaoQOFXzk
 ---
 
 # Solution
