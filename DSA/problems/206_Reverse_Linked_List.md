@@ -22,18 +22,27 @@ video: https://youtu.be/t7YaoQOFXzk
  */
 class Solution {
     public ListNode reverseList(ListNode head) {
-        ListNode previous = null;
-        ListNode current = head;
-        ListNode after = null;
+        // EDGE-CASE-1: IF LINKED LIST IS EMPTY THEN WE WILL JUST RETURN THE head
+        // EDGE-CASE-2: IF LINKED LIST CONTAINS ONLY 1 NODE THEN WE DON'T HAVE TO REVERSE ANYTHING, THEN JUST RETURN
+        if ((head == null) || (head.next == null)) {
+            return head;
+        }
 
-        while (current != null ) {
-            after = current.next;
+        ListNode previous = head;
+        ListNode current = previous.next;
+
+        while (current != null) {
+            ListNode after = current.next;
 
             current.next = previous;
+
+            // UPDATION
             previous = current;
             current = after;
         }
-        return previous;
+        head.next = null;
+        head = previous;
+        return head;
     }
 }
 ```
