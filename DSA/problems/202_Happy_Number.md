@@ -67,4 +67,4 @@ class Solution {
 }
 ```
 ### Solution-2 Approach
-![Happy Number- Linked ](./images/Happynumber.jpg)
+![Happy Number- Slow Fast Approach](./images/Happynumber.jpg)
