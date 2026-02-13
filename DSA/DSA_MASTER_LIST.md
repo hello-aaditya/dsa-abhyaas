@@ -7,36 +7,36 @@
 | 2 | 141. Linked List Cycle | [Open](https://leetcode.com/problems/linked-list-cycle/description/) | DONE |
 | 3 | 1493. Longest Subarray of 1's After Deleting One Element | [Open](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/) | DONE |
 | 4 | 1732. Find the Highest Altitude | [Open](https://leetcode.com/problems/find-the-highest-altitude/description/) | DONE |
-| 5 | 206. Reverse Linked List | [Open](https://leetcode.com/problems/reverse-linked-list/description/) | DONE |
-| 6 | 239. Sliding Window Maximum | [Open](https://leetcode.com/problems/sliding-window-maximum/description/) | DONE |
-| 7 | 24. Swap Nodes in Pairs | [Open](https://leetcode.com/problems/swap-nodes-in-pairs/description/) | DONE |
-| 8 | 268. Missing Number | [Open](https://leetcode.com/problems/missing-number/description/) | DONE |
-| 9 | 283. Move Zeroes | [Open](https://leetcode.com/problems/move-zeroes/description/) | DONE |
-| 10 | 287. Find the Duplicate Number | [Open](https://leetcode.com/problems/find-the-duplicate-number/description/) | DONE |
-| 11 | 3. Longest Substring Without Repeating Characters | [Open](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | DONE |
-| 12 | 42. Linked List Cycle II | [Open](https://leetcode.com/problems/linked-list-cycle-ii/description/) | DONE |
-| 13 | 442. Find All Duplicates in an Array | [Open](https://leetcode.com/problems/find-all-duplicates-in-an-array/description/) | DONE |
-| 14 | 448. Find All Numbers Disappeared in an Array | [Open](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/) | DONE |
-| 15 | 643. Maximum Average Subarray I | [Open](https://leetcode.com/problems/maximum-average-subarray-i/description/) | DONE |
-| 16 | 645. Set Mismatch | [Open](https://leetcode.com/problems/set-mismatch/description/) | DONE |
-| 17 | 724. Find Pivot Index | [Open](https://leetcode.com/problems/find-pivot-index/description/) | DONE |
-| 18 | 74. Search a 2D Matrix | [Open](https://leetcode.com/problems/search-a-2d-matrix/description/) | DONE |
-| 19 | 81. Search in Rotated Sorted Array II | [Open](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/) | DONE |
-| 20 | 83. Remove Duplicates from Sorted List | [Open](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/) | DONE |
-| 21 | Ceil in a Sorted Array | [Open](https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1) | Done |
-| 22 | Container With Most Water | [Open](https://leetcode.com/problems/container-with-most-water/description/?source=submission-ac) | DONE |
-| 23 | Count Occurences of Anagrams | [Open](https://www.geeksforgeeks.org/problems/count-occurences-of-anagrams5839/1) | DONE |
-| 24 | Delete in a Singly Linked List | [Open](https://www.geeksforgeeks.org/problems/delete-a-node-in-single-linked-list/1) | DONE |
-| 25 | Find First and Last Position of Element in Sorted Array | [Open](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Done |
-| 26 | Find in Mountain Array | [Open](https://leetcode.com/problems/find-in-mountain-array/) | Done |
-| 27 | Find Kth Rotation | [Open](https://www.geeksforgeeks.org/problems/rotation4723/1) | DONE |
-| 28 | Find length of Loop | [Open](https://www.geeksforgeeks.org/problems/find-length-of-loop/1) | DONE |
-| 29 | Find Minimum in Rotated Sorted Array | [Open](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Done |
-| 30 | Find position of an element in a sorted array of infinite numbers | [Open](https://www.geeksforgeeks.org/dsa/find-position-element-sorted-array-infinite-numbers/) | Done |
-| 31 | Find Smallest Letter Greater Than Target | [Open](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Done |
-| 32 | First negative in every window of size k | [Open](https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1) | DONE |
-| 33 | Floor in a Sorted Array | [Open](https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1) | Done |
-| 34 | Happy Number | [Open](https://leetcode.com/problems/happy-number/) | Done |
+| 5 | 202. Happy Number | [Open](https://leetcode.com/problems/happy-number/description/) | DONE |
+| 6 | 206. Reverse Linked List | [Open](https://leetcode.com/problems/reverse-linked-list/description/) | DONE |
+| 7 | 239. Sliding Window Maximum | [Open](https://leetcode.com/problems/sliding-window-maximum/description/) | DONE |
+| 8 | 24. Swap Nodes in Pairs | [Open](https://leetcode.com/problems/swap-nodes-in-pairs/description/) | DONE |
+| 9 | 268. Missing Number | [Open](https://leetcode.com/problems/missing-number/description/) | DONE |
+| 10 | 283. Move Zeroes | [Open](https://leetcode.com/problems/move-zeroes/description/) | DONE |
+| 11 | 287. Find the Duplicate Number | [Open](https://leetcode.com/problems/find-the-duplicate-number/description/) | DONE |
+| 12 | 3. Longest Substring Without Repeating Characters | [Open](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | DONE |
+| 13 | 42. Linked List Cycle II | [Open](https://leetcode.com/problems/linked-list-cycle-ii/description/) | DONE |
+| 14 | 442. Find All Duplicates in an Array | [Open](https://leetcode.com/problems/find-all-duplicates-in-an-array/description/) | DONE |
+| 15 | 448. Find All Numbers Disappeared in an Array | [Open](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/) | DONE |
+| 16 | 643. Maximum Average Subarray I | [Open](https://leetcode.com/problems/maximum-average-subarray-i/description/) | DONE |
+| 17 | 645. Set Mismatch | [Open](https://leetcode.com/problems/set-mismatch/description/) | DONE |
+| 18 | 724. Find Pivot Index | [Open](https://leetcode.com/problems/find-pivot-index/description/) | DONE |
+| 19 | 74. Search a 2D Matrix | [Open](https://leetcode.com/problems/search-a-2d-matrix/description/) | DONE |
+| 20 | 81. Search in Rotated Sorted Array II | [Open](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/) | DONE |
+| 21 | 83. Remove Duplicates from Sorted List | [Open](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/) | DONE |
+| 22 | Ceil in a Sorted Array | [Open](https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1) | Done |
+| 23 | Container With Most Water | [Open](https://leetcode.com/problems/container-with-most-water/description/?source=submission-ac) | DONE |
+| 24 | Count Occurences of Anagrams | [Open](https://www.geeksforgeeks.org/problems/count-occurences-of-anagrams5839/1) | DONE |
+| 25 | Delete in a Singly Linked List | [Open](https://www.geeksforgeeks.org/problems/delete-a-node-in-single-linked-list/1) | DONE |
+| 26 | Find First and Last Position of Element in Sorted Array | [Open](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Done |
+| 27 | Find in Mountain Array | [Open](https://leetcode.com/problems/find-in-mountain-array/) | Done |
+| 28 | Find Kth Rotation | [Open](https://www.geeksforgeeks.org/problems/rotation4723/1) | DONE |
+| 29 | Find length of Loop | [Open](https://www.geeksforgeeks.org/problems/find-length-of-loop/1) | DONE |
+| 30 | Find Minimum in Rotated Sorted Array | [Open](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Done |
+| 31 | Find position of an element in a sorted array of infinite numbers | [Open](https://www.geeksforgeeks.org/dsa/find-position-element-sorted-array-infinite-numbers/) | Done |
+| 32 | Find Smallest Letter Greater Than Target | [Open](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Done |
+| 33 | First negative in every window of size k | [Open](https://www.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1) | DONE |
+| 34 | Floor in a Sorted Array | [Open](https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1) | Done |
 | 35 | Linked List End Insertion | [Open](https://www.geeksforgeeks.org/problems/linked-list-insertion-1587115620/1) | DONE |
 | 36 | Linked List Insertion At Beginning | [Open](https://www.geeksforgeeks.org/problems/linked-list-insertion-at-beginning/1) | DONE |
 | 37 | Longest Substring with K Uniques | [Open](https://www.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1) | DONE |
@@ -53,25 +53,25 @@
 ## Table 2: Detailed View
 | S No. | Problem Name | Platform Link | Approach | Level | Pre-requisite | Video Solution | Solution |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Happy Number | [Open](https://leetcode.com/problems/happy-number/) | - | EASY | - | - | [View](./problems/Happy_Number.md) |
-| 2 | 74. Search a 2D Matrix | [Open](https://leetcode.com/problems/search-a-2d-matrix/description/) | Binary Search | MODERATE | - | - | [View](./problems/74_Search_a_2D_Matrix.md) |
-| 3 | 81. Search in Rotated Sorted Array II | [Open](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/) | Binary Search | MODERATE | [Open](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) | [Watch](https://www.youtube.com/watch?v=eneo_XPUEj0) | [View](./problems/81_Search_in_Rotated_Sorted_Array_II.md) |
-| 4 | Ceil in a Sorted Array | [Open](https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1) | Binary Search | EASY | - | - | [View](./problems/Ceil_in_a_Sorted_Array.md) |
-| 5 | Find First and Last Position of Element in Sorted Array | [Open](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Binary Search | MODERATE | - | - | [View](./problems/Find_First_and_Last_Position_of_Element_in_Sorted_Array.md) |
-| 6 | Find in Mountain Array | [Open](https://leetcode.com/problems/find-in-mountain-array/) | Binary Search | HARD | - | - | [View](./problems/Find_in_Mountain_Array.md) |
-| 7 | Find Kth Rotation | [Open](https://www.geeksforgeeks.org/problems/rotation4723/1) | Binary Search | EASY | [Open](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) | - | [View](./problems/Find_Kth_Rotation.md) |
-| 8 | Find Minimum in Rotated Sorted Array | [Open](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Binary Search | MODERATE | - | [Watch](https://www.youtube.com/watch?v=Jin6vO0MdzY) | [View](./problems/Find_Minimum_in_Rotated_Sorted_Array.md) |
-| 9 | Find position of an element in a sorted array of infinite numbers | [Open](https://www.geeksforgeeks.org/dsa/find-position-element-sorted-array-infinite-numbers/) | Binary Search | MODERATE | - | - | [View](./problems/Find_position_of_an_element_in_a_sorted_array_of_infinite_numbers.md) |
-| 10 | Find Smallest Letter Greater Than Target | [Open](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Binary Search | EASY | - | - | [View](./problems/Find_Smallest_Letter_Greater_Than_Target.md) |
-| 11 | Floor in a Sorted Array | [Open](https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1) | Binary Search | EASY | - | - | [View](./problems/Floor-in-a-Sorted-Array.md) |
-| 12 | Peak Index in a Mountain Array | [Open](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | Binary Search | EASY | - | - | [View](./problems/Peak_Index_in_a_Mountain_Array.md) |
-| 13 | Search in Rotated Sorted Array | [Open](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Binary Search | HARD | [Open](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Watch](https://www.youtube.com/watch?v=U1VsdRgVevY) | [View](./problems/Search_in_Rotated_Sorted_Array.md) |
-| 14 | 268. Missing Number | [Open](https://leetcode.com/problems/missing-number/description/) | Cyclic Sort | MODERATE | - | [Watch](https://www.youtube.com/watch?v=JfinxytTYFQ&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=20) | [View](./problems/268_Missing_Number.md) |
-| 15 | 287. Find the Duplicate Number | [Open](https://leetcode.com/problems/find-the-duplicate-number/description/) | Cyclic Sort | MODERATE | [Open](https://leetcode.com/problems/missing-number/) | [Watch](https://www.youtube.com/watch?v=JfinxytTYFQ&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=20) | [View](./problems/287_Find_the_Duplicate_Number.md) |
-| 16 | 442. Find All Duplicates in an Array | [Open](https://leetcode.com/problems/find-all-duplicates-in-an-array/description/) | Cyclic Sort | MODERATE | [Open](https://leetcode.com/problems/missing-number/) | [Watch](https://www.youtube.com/watch?v=JfinxytTYFQ&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=20) | [View](./problems/442_Find_All_Duplicates_in_an_Array.md) |
-| 17 | 448. Find All Numbers Disappeared in an Array | [Open](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/) | Cyclic Sort | MODERATE | [Open](https://leetcode.com/problems/missing-number/) | [Watch](https://www.youtube.com/watch?v=JfinxytTYFQ&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=20) | [View](./problems/448_Find_All_Numbers_Disappeared_in_an_Array.md) |
-| 18 | 645. Set Mismatch | [Open](https://leetcode.com/problems/set-mismatch/description/) | Cyclic Sort | MODERATE | [Open](https://leetcode.com/problems/missing-number/) | [Watch](https://www.youtube.com/watch?v=JfinxytTYFQ&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=20) | [View](./problems/645_Set_Mismatch.md) |
-| 19 | 141. Linked List Cycle | [Open](https://leetcode.com/problems/linked-list-cycle/description/) | Linked List, Fast-Slow Approach | MODERATE | - | [Watch](https://www.youtube.com/watch?v=70tx7KcMROc&t=2718s) | [View](./problems/141_Linked_List_Cycle.md) |
+| 1 | 74. Search a 2D Matrix | [Open](https://leetcode.com/problems/search-a-2d-matrix/description/) | Binary Search | MODERATE | - | - | [View](./problems/74_Search_a_2D_Matrix.md) |
+| 2 | 81. Search in Rotated Sorted Array II | [Open](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/) | Binary Search | MODERATE | [Open](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) | [Watch](https://www.youtube.com/watch?v=eneo_XPUEj0) | [View](./problems/81_Search_in_Rotated_Sorted_Array_II.md) |
+| 3 | Ceil in a Sorted Array | [Open](https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1) | Binary Search | EASY | - | - | [View](./problems/Ceil_in_a_Sorted_Array.md) |
+| 4 | Find First and Last Position of Element in Sorted Array | [Open](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Binary Search | MODERATE | - | - | [View](./problems/Find_First_and_Last_Position_of_Element_in_Sorted_Array.md) |
+| 5 | Find in Mountain Array | [Open](https://leetcode.com/problems/find-in-mountain-array/) | Binary Search | HARD | - | - | [View](./problems/Find_in_Mountain_Array.md) |
+| 6 | Find Kth Rotation | [Open](https://www.geeksforgeeks.org/problems/rotation4723/1) | Binary Search | EASY | [Open](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) | - | [View](./problems/Find_Kth_Rotation.md) |
+| 7 | Find Minimum in Rotated Sorted Array | [Open](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Binary Search | MODERATE | - | [Watch](https://www.youtube.com/watch?v=Jin6vO0MdzY) | [View](./problems/Find_Minimum_in_Rotated_Sorted_Array.md) |
+| 8 | Find position of an element in a sorted array of infinite numbers | [Open](https://www.geeksforgeeks.org/dsa/find-position-element-sorted-array-infinite-numbers/) | Binary Search | MODERATE | - | - | [View](./problems/Find_position_of_an_element_in_a_sorted_array_of_infinite_numbers.md) |
+| 9 | Find Smallest Letter Greater Than Target | [Open](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Binary Search | EASY | - | - | [View](./problems/Find_Smallest_Letter_Greater_Than_Target.md) |
+| 10 | Floor in a Sorted Array | [Open](https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1) | Binary Search | EASY | - | - | [View](./problems/Floor-in-a-Sorted-Array.md) |
+| 11 | Peak Index in a Mountain Array | [Open](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | Binary Search | EASY | - | - | [View](./problems/Peak_Index_in_a_Mountain_Array.md) |
+| 12 | Search in Rotated Sorted Array | [Open](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Binary Search | HARD | [Open](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Watch](https://www.youtube.com/watch?v=U1VsdRgVevY) | [View](./problems/Search_in_Rotated_Sorted_Array.md) |
+| 13 | 268. Missing Number | [Open](https://leetcode.com/problems/missing-number/description/) | Cyclic Sort | MODERATE | - | [Watch](https://www.youtube.com/watch?v=JfinxytTYFQ&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=20) | [View](./problems/268_Missing_Number.md) |
+| 14 | 287. Find the Duplicate Number | [Open](https://leetcode.com/problems/find-the-duplicate-number/description/) | Cyclic Sort | MODERATE | [Open](https://leetcode.com/problems/missing-number/) | [Watch](https://www.youtube.com/watch?v=JfinxytTYFQ&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=20) | [View](./problems/287_Find_the_Duplicate_Number.md) |
+| 15 | 442. Find All Duplicates in an Array | [Open](https://leetcode.com/problems/find-all-duplicates-in-an-array/description/) | Cyclic Sort | MODERATE | [Open](https://leetcode.com/problems/missing-number/) | [Watch](https://www.youtube.com/watch?v=JfinxytTYFQ&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=20) | [View](./problems/442_Find_All_Duplicates_in_an_Array.md) |
+| 16 | 448. Find All Numbers Disappeared in an Array | [Open](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/) | Cyclic Sort | MODERATE | [Open](https://leetcode.com/problems/missing-number/) | [Watch](https://www.youtube.com/watch?v=JfinxytTYFQ&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=20) | [View](./problems/448_Find_All_Numbers_Disappeared_in_an_Array.md) |
+| 17 | 645. Set Mismatch | [Open](https://leetcode.com/problems/set-mismatch/description/) | Cyclic Sort | MODERATE | [Open](https://leetcode.com/problems/missing-number/) | [Watch](https://www.youtube.com/watch?v=JfinxytTYFQ&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=20) | [View](./problems/645_Set_Mismatch.md) |
+| 18 | 141. Linked List Cycle | [Open](https://leetcode.com/problems/linked-list-cycle/description/) | Linked List, Fast-Slow Approach | MODERATE | - | [Watch](https://www.youtube.com/watch?v=70tx7KcMROc&t=2718s) | [View](./problems/141_Linked_List_Cycle.md) |
+| 19 | 202. Happy Number | [Open](https://leetcode.com/problems/happy-number/description/) | Linked List, HashSet, Linked List, Fast-Slow Approach | MODERATE | [Open](https://github.com/hello-aaditya/dsa-abhyaas/blob/main/DSA/problems/Find_length_of_Loop.md) | [Watch](https://youtu.be/70tx7KcMROc?t=4623) | [View](./problems/202_Happy_Number.md) |
 | 20 | 206. Reverse Linked List | [Open](https://leetcode.com/problems/reverse-linked-list/description/) | Linked List | MODERATE | - | [Watch](https://youtu.be/t7YaoQOFXzk) | [View](./problems/206_Reverse_Linked_List.md) |
 | 21 | 24. Swap Nodes in Pairs | [Open](https://leetcode.com/problems/swap-nodes-in-pairs/description/) | Linked List | MODERATE | - | - | [View](./problems/24_Swap_Nodes_in_Pairs.md) |
 | 22 | 42. Linked List Cycle II | [Open](https://leetcode.com/problems/linked-list-cycle-ii/description/) | Linked List, Fast-Slow Approach | MODERATE | [Open](https://www.geeksforgeeks.org/problems/find-length-of-loop/1) | [Watch](https://www.youtube.com/watch?v=70tx7KcMROc&t=2718s) | [View](./problems/42_Linked_List_Cycle_II.md) |
