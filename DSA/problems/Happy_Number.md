@@ -2,8 +2,9 @@
 problem: Happy Number
 link: https://leetcode.com/problems/happy-number/
 status: Done
-approach:
+approach: Linked List, Fast-Slow Approach
 level: EASY
+video: https://youtu.be/70tx7KcMROc?t=4623
 ---
 
 # Solution-1
