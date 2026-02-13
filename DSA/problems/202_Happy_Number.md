@@ -66,3 +66,5 @@ class Solution {
     }
 }
 ```
+### Solution-2 Approach
+![Happy Number- Linked ](./images/Happynumber.jpg)
